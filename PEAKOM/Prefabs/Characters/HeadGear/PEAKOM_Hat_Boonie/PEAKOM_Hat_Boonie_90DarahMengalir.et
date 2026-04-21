@@ -1,0 +1,44 @@
+GameEntity : "{D4BC1F7EC5C290A3}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{692A8849A8DD3227}" {
+    ItemDisplayName UIInfo "{692A8849A8DD3228}" {
+     Description "Wide-brim, cotton ripstop hat in 90's Darah Mengalir camouflage."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{692A8849A8DD3234}" {
+     SizeSetupStrategy Manual
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{692A8849A8DD3230}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.5
+      CameraOffset 0 -0.02 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Materials {
+    MaterialAssignClass "{692A8849A8DD323D}" {
+     SourceMaterial "Hat_Boonie_US_01"
+     AssignedMaterial "{94E4BCA944FD54AF}Assets/Characters/HeadGear/PKOM_Hat_Boonie_DarahMengalir/PKOM_Hat_Boonie_90DarahMengalir.emat"
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{618AD7BA9EE725D7}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D966DE76BABC}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D966DC437F32}" {
+      m_AffiliatedFactionKey "PKOM"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{2CB5E8DDA0A383BF}Assets/Characters/HeadGear/PKOM_Hat_Boonie_DarahMengalir/PKOM_Hat_Boonie_90DarahMengalir_XOB.et"
+   ItemModel "{6204B15202A62B86}Assets/Characters/HeadGear/PKOM_Hat_Boonie_DarahMengalir/PKOM_Hat_Boonie_90DarahMengalir_item_XOB.et"
+  }
+ }
+}

@@ -1,0 +1,37 @@
+GameEntity : "{B74A4FF0DD8BB116}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01.et" {
+ ID "50B0A3042139DAF9"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{692A8849B767CDB3}" {
+    ItemDisplayName UIInfo "{692A8849B767CD43}" {
+     Name "RBR F6 Helmet"
+     Description "Ballistic combat helmet fielded by the Indonesian Army, offering basic protection from fragmentation and small arms fire."
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{692A8849B767CD4C}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.5
+      CameraOffset 0 -0.02 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{F68837E462B617A2}3D Model/RBR/pkom_RBR_noscrim_item.xob"
+  }
+  SCR_ItemOutfitFactionComponent "{618AD7BB075F1045}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D96650B5696D}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D96650441EDE}" {
+      m_AffiliatedFactionKey "PKOM"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{4BB662B4456635FF}3D Model/RBR/pkom_RBR_noscrim.xob"
+   ItemModel "{F68837E462B617A2}3D Model/RBR/pkom_RBR_noscrim_item.xob"
+  }
+ }
+}

@@ -1,0 +1,44 @@
+GenericEntity : "{E8F00BF730225B00}Prefabs/Weapons/Grenades/Grenade_M67.et" {
+ ID "E8F00BF730225B00"
+ components {
+  InventoryItemComponent "{51FAA3E3CF6F087A}" {
+   Attributes SCR_ItemAttributeCollection "{51FAA3E3C2D19BD4}" {
+    ItemDisplayName WeaponUIInfo "{56CA88CA3C5E4779}" {
+     Name "GT5-PEA2"
+     Description "Fragmentation hand grenade used by Indonesian forces with a 4-5 second timed fuse."
+    }
+   }
+  }
+  MeshObject "{51EC93F29BA5F234}" {
+   Object "{31C2F9606EFFCAFA}3D Model/GT 5 PEA 2/GT 5 PEA2.xob"
+  }
+  SCR_WeaponAttachmentsStorageComponent "{5260C44722CA8E32}" {
+   Enabled 1
+   Attributes SCR_ItemAttributeCollection "{5260C44720803F69}" {
+    ItemDisplayName WeaponUIInfo "{5270B21D390090DC}" {
+     Name "GT5-PEA2"
+     Description "Fragmentation hand grenade used by Indonesian forces with a 4-5 second timed fuse."
+    }
+   }
+  }
+  WeaponComponent "{6D23670EA18BF513}" {
+   components {
+    BaseItemAnimationComponent "{5238E9ECE62AC2E4}" {
+     AnimGraph "{522A3981FCDEEA55}anims/Grenade_GT5.agr"
+     AnimInstance "{BF406C5AE0D7B8BB}anims/Grenade_GT5.asi"
+     AnimInjection AnimationAttachmentInfo "{523890C69EF70586}" {
+      AnimGraph "{522A3981FCDEEA55}anims/Grenade_GT5.agr"
+      AnimInstance "{69C11C453F419E68}anims/Player_GT5.asi"
+     }
+    }
+   }
+   UIInfo GrenadeUIInfo "{172367262E10E042}" {
+    Name "GT5-PEA2"
+    Description "Fragmentation hand grenade used by Indonesian forces with a 4-5 second timed fuse."
+    m_sAmmoType "GT5-PEA2"
+   }
+  }
+ }
+ coords 4776.356 23.226 12075.425
+ angles -0.656 42.879 0
+}

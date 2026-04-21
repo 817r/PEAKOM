@@ -1,0 +1,12 @@
+GenericEntity : "{DAAFD15478BDE1C3}Prefabs/Characters/Footwear/CombatBoots_US_01.et" {
+ ID "51A4D7EC51788198"
+ components {
+  InventoryItemComponent "{5244C46AD695742D}" {
+   Attributes SCR_ItemAttributeCollection "{52C8D60112379774}" {
+    ItemDisplayName UIInfo "{52C8D6011199206B}" {
+     Name "Combat Boots"
+    }
+   }
+  }
+ }
+}

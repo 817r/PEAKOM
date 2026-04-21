@@ -1,0 +1,22 @@
+GameEntity : "{E685A8D337D36204}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helmet_PASGT_01_cover_w_goggles.et" {
+ ID "50D49DC5BC0CD17E"
+ components {
+  SCR_ItemOutfitFactionComponent "{618AD7BB075F1045}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D96650B5696D}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D96650441EDE}" {
+      m_AffiliatedFactionKey "PKOM"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornMaterialsOverride {
+    "{A72815EAE18CF597}Assets/Characters/HeadGear/Helmet_PASGT/data/PKOM_Helmet_PASGT_01_cover.emat" ""
+   }
+   ItemMaterialsOverride {
+    "{A72815EAE18CF597}Assets/Characters/HeadGear/Helmet_PASGT/data/PKOM_Helmet_PASGT_01_cover.emat" "" ""
+   }
+  }
+ }
+}

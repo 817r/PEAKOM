@@ -1,0 +1,14 @@
+GameEntity : "{6E14F80C250F85FC}Prefabs/Characters/HeadGear/Helmet_M1_01/Helmet_M1_01.et" {
+ ID "5112706CD4157AC7"
+ components {
+  SCR_ItemOutfitFactionComponent "{618AD7BB72AD6578}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D966A84C7901}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D966AFE2BE8A}" {
+      m_AffiliatedFactionKey "PKOM"
+     }
+    }
+   }
+  }
+ }
+}

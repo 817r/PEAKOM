@@ -1,0 +1,35 @@
+GenericEntity : "{2835A0EA3B79E63E}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_rifleman.et" {
+ ID "50D8C49B3558F152"
+ components {
+  MeshObject "{5312D798A817A294}" {
+   Materials {
+    MaterialAssignClass "{692A8848C019DB5A}" {
+     SourceMaterial "M_ALICE_LoadBearingSystem"
+     AssignedMaterial "{A0288EDB271E6BB8}Assets/Characters/Vests/Vest_ALICE/Data/PKOM_vest_ALICE.emat"
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   Slots {
+    LoadoutSlotInfo Suspenders {
+     Prefab "{62BE280C54350B02}Prefabs/Characters/Vests/Vest_ALICE/PKOM_Vest_ALICE_suspenders_2.et"
+    }
+    LoadoutSlotInfo MagPouch {
+     Prefab "{2A6B050A943FD6F3}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/PKOM_Pouch_ALICE_30rnd_STANAG.et"
+    }
+    LoadoutSlotInfo MagPouch2 {
+     Prefab "{2A6B050A943FD6F3}Prefabs/Items/Equipment/Accessories/Pouch_ALICE_30rnd_STANAG/PKOM_Pouch_ALICE_30rnd_STANAG.et"
+    }
+    LoadoutSlotInfo Etool {
+     Prefab "{9D1A5B71AE980651}Prefabs/Items/Equipment/Canteens/PKOM_Canteen_US_01.et"
+    }
+    LoadoutSlotInfo Buttpack {
+     Prefab "{1BEF9660C528456B}Prefabs/Characters/Vests/Vest_ALICE/PKOM_Vest_ALICE_buttpack.et"
+    }
+    LoadoutSlotInfo Cateen {
+     Prefab "{9D1A5B71AE980651}Prefabs/Items/Equipment/Canteens/PKOM_Canteen_US_01.et"
+    }
+   }
+  }
+ }
+}

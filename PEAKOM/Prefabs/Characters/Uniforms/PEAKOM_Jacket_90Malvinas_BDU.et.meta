@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{EC1B39AE33D32AEE}Prefabs/Characters/Uniforms/PEAKOM_Jacket_90Malvinas_BDU.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

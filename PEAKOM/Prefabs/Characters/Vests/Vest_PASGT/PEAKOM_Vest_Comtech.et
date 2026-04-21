@@ -1,0 +1,47 @@
+GameEntity : "{4B57C11AA5161760}Prefabs/Characters/Vests/Vest_PASGT/Vest_PASGT.et" {
+ ID "525674F565A195C4"
+ components {
+  InventoryItemComponent "{5DF2CE902E1EB161}" {
+   Attributes SCR_ItemAttributeCollection "{5DF2CE902E1EB16A}" {
+    ItemDisplayName UIInfo "{5DF2CE902E1EB170}" {
+     Name "Marom Dolphin Vest"
+     Description "Fragmentation vest worn by the Indonesian military, affording excellent protection from fragmentation and exploding munitions."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{5DF2CE902E1EB173}" {
+     Weight 6.4
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{5DF2CE902E1EB17F}" {
+      PreviewModel "{F256FAC56C46AF41}3D Model/Rompi Comtech/Rompi Comtech.xob"
+     }
+    }
+   }
+  }
+  MeshObject "{5312D798A817A294}" {
+   Object "{91992BA2949E169E}3D Model/Rompi Comtech/rompi comtech item.xob"
+  }
+  SCR_ArmorDamageManagerComponent "{62D6849E44DF20AC}" {
+   "Additional hit zones" {
+    SCR_ArmorHitZone Armor {
+     ColliderNames {
+      "UTM_Object_Spine4" "UTM_Object_Spine5" "UTM_Object_Spine3"
+     }
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{62A2A6189E89E00A}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{62A2A6189DAC0777}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{62A2A6189D3FB829}" {
+      m_AffiliatedFactionKey "PKOM"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5312D798A71DFBB1}" {
+   WornModel "{F256FAC56C46AF41}3D Model/Rompi Comtech/Rompi Comtech.xob"
+   ItemModel "{91992BA2949E169E}3D Model/Rompi Comtech/rompi comtech item.xob"
+  }
+ }
+ coords 4859.165 28.594 11853.438
+}

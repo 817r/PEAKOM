@@ -1,0 +1,30 @@
+GenericEntity : "{9DB69176CEF0EE97}Prefabs/Weapons/Grenades/Smoke_ANM8HC.et" {
+ ID "1F80A73AAE197BBE"
+ components {
+  InventoryItemComponent "{51FAA3E3CF6F087A}" {
+   Attributes SCR_ItemAttributeCollection "{51FAA3E3C2D19BD4}" {
+    ItemDisplayName WeaponUIInfo "{56CA8ED293FE862B}" {
+     Name "GT6-AS"
+    }
+   }
+  }
+  MeshObject "{51EC93F29BA5F234}" {
+   Object "{EEC4DFD3B15D08BB}3D Model/GTA 6 AS/GT 6.xob"
+  }
+  WeaponComponent "{6D23670EA18BF513}" {
+   components {
+    BaseItemAnimationComponent "{5238E9EC9BC5D973}" {
+     AnimGraph "{CB348018E139DBC5}anims/Grenade_GT6.agr"
+     AnimInstance "{265ED5C3FD30892B}anims/Grenade_GT6.asi"
+     AnimInjection AnimationAttachmentInfo "{5238BA5363FA0CA9}" {
+      AnimGraph "{CB348018E139DBC5}anims/Grenade_GT6.agr"
+      AnimInstance "{F0DFA5DC22A6AFF8}anims/Player_GT6.asi"
+     }
+    }
+   }
+   UIInfo GrenadeUIInfo "{172367262E10E042}" {
+    m_sAmmoType "GT6-AS"
+   }
+  }
+ }
+}

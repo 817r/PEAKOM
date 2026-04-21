@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{168FB2ACD41FFC9C}Prefabs/Characters/Uniforms/PEAKOM_Jacket_90DarahMengalir_BDU.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

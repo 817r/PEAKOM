@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{573B71551B2F1EA7}Configs/EntityCatalog/US/Characters_EntityCatalog_PEAKOM.conf"
+ Configurations {
+  CONFResourceClass PC {
+  }
+  CONFResourceClass XBOX_ONE : PC {
+  }
+  CONFResourceClass XBOX_SERIES : PC {
+  }
+  CONFResourceClass PS4 : PC {
+  }
+  CONFResourceClass PS5 : PC {
+  }
+  CONFResourceClass HEADLESS : PC {
+  }
+ }
+}

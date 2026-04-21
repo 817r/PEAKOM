@@ -1,0 +1,42 @@
+GameEntity : "{604BB72BE8E023C2}Prefabs/Characters/Uniforms/Pants_US_BDU.et" {
+ ID "521AC0438899D203"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{692A8849700533D6}" {
+     SourceMaterial "Pants_BDU_M81_tucked_item"
+     AssignedMaterial "{0029C46C70CC0AC1}Assets/Characters/Uniforms/Darah Mengalir/PKOM_Pants_BDU_90DarahMengalir/PKOM_Pants_BDU_90DarahMengalir.emat"
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{618AD7BAC1A66A83}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8A841936C7D82}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8A84192F44629}" {
+      m_AffiliatedFactionKey "PKOM"
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "PDL Pants Darah Mengalir"
+     Description "Pants in 90's Darah Mengalir camouflage pattern, part of the Indonesian Army's Special Forces Uniform."
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewModel "{467BEF43484E9B39}Assets/Characters/Uniforms/Darah Mengalir/PKOM_Pants_BDU_90DarahMengalir/PKOM_Pants_90DarahMengalir_BDU_Unflated.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   WornModel "{467BEF43484E9B39}Assets/Characters/Uniforms/Darah Mengalir/PKOM_Pants_BDU_90DarahMengalir/PKOM_Pants_90DarahMengalir_BDU_Unflated.et"
+   WornMaterialsOverride {
+    "{85C3C4C5655DBFA5}Assets/Characters/Uniforms/Malvinas/PKOM_Pants_BDU_90Malvinas/Data/PKOM_Pants_BDU_90Malvinas.emat"
+   }
+   ItemModel "{793803DFD89CB4E8}Assets/Characters/Uniforms/Darah Mengalir/PKOM_Pants_BDU_90DarahMengalir/PKOM_Pants_90DarahMengalir_BDU_Item.et"
+  }
+ }
+}

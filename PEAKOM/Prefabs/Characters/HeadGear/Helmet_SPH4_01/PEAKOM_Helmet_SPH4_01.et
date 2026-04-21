@@ -1,0 +1,14 @@
+GameEntity : "{483A80042765275F}Prefabs/Characters/HeadGear/Helmet_SPH4_01/Helmet_SPH4_01.et" {
+ ID "5102FE5F1C91AA14"
+ components {
+  SCR_ItemOutfitFactionComponent "{618AD7BB659386B3}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D9665B5FDE74}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D9665AD8BD0A}" {
+      m_AffiliatedFactionKey "PKOM"
+     }
+    }
+   }
+  }
+ }
+}

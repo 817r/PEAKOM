@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A8F7E2F85C0AF7D6}Prefabs/Characters/HeadGear/Helmet_PASGT_01/PEAKOM_Helmet_PASGT_cover_w_scrim.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

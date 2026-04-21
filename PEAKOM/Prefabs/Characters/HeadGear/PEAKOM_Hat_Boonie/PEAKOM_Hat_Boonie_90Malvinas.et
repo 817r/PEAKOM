@@ -1,0 +1,44 @@
+GameEntity : "{D4BC1F7EC5C290A3}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat_Boonie_US_01_base.et" {
+ ID "5112706CD4157AC7"
+ components {
+  InventoryItemComponent "{5244E4431E28A759}" {
+   Attributes SCR_ItemAttributeCollection "{692A8849AB8B8AB7}" {
+    ItemDisplayName UIInfo "{692A8849AB8B8A47}" {
+     Description "Wide-brim, cotton ripstop hat in 90's DPM Malvinas camouflage."
+    }
+    ItemPhysAttributes ItemPhysicalAttributes "{692A8849AB8B8A42}" {
+     SizeSetupStrategy Manual
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{692A8849AB8B8A4F}" {
+      CameraOrbitAngles -25 25 0
+      CameraDistanceToItem 1.5
+      CameraOffset 0 -0.02 0
+      FOV 10
+     }
+    }
+   }
+  }
+  MeshObject "{5112706CD4157AE0}" {
+   Materials {
+    MaterialAssignClass "{692A8849AB8B8A48}" {
+     SourceMaterial "Hat_Boonie_US_01"
+     AssignedMaterial "{A5621B0CF56EE2B0}Assets/Characters/HeadGear/PKOM_Hat_Boonie_Malvinas/Data/PKOM_Hat_Boonie_90Malvinas.emat"
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{618AD7BA9EE725D7}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D966DE76BABC}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D966DC437F32}" {
+      m_AffiliatedFactionKey "PKOM"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{446C3F320626CC86}Assets/Characters/HeadGear/PKOM_Hat_Boonie_Malvinas/PKOM_Hat_Boonie_90Malvinas_XOB.et"
+   ItemModel "{1715E7F30343BEEF}Assets/Characters/HeadGear/PKOM_Hat_Boonie_Malvinas/PKOM_Hat_Boonie_90Malvinas_item_XOB.et"
+  }
+ }
+}

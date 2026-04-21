@@ -1,0 +1,13 @@
+GameEntity : "{1E5ADDFCAD826666}Prefabs/Characters/HeadGear/PKOM_Helmet_RBR/PKOM_Helmet_RBR.et" {
+ ID "50B0A3042139DAF9"
+ components {
+  MeshObject "{5112706CD4157AE0}" {
+   Object "{141FB6D6CD0B5A9E}3D Model/RBR/pkom_RBR_scrim.xob"
+  }
+  BaseLoadoutClothComponent "{5112706CD4157AF8}" {
+   WornModel "{141FB6D6CD0B5A9E}3D Model/RBR/pkom_RBR_scrim.xob"
+   ItemModel "{717EB387FE6C4C00}3D Model/RBR/pkom_RBR_scrim_item.xob"
+  }
+ }
+ coords 4775.667 23.187 12077.972
+}

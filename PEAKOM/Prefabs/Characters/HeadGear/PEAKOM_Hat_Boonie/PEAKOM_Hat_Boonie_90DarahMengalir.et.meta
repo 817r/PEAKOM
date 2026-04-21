@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{10FE94940634993D}Prefabs/Characters/HeadGear/PKOM_Hat_Boonie/PEAKOM_Hat_Boonie_90DarahMengalir.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

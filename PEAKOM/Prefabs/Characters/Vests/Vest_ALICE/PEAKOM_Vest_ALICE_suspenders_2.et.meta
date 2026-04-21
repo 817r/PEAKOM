@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E05D784D678D0DFB}Prefabs/Characters/Vests/Vest_ALICE/PEAKOM_Vest_ALICE_suspenders_2.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

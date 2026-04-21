@@ -1,0 +1,48 @@
+SCR_ChimeraCharacter : "{2FD3D625A7E71E1D}Prefabs/Characters/Core/Character_PEAKOM_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   AttachType InventoryStorageSlot "{416B67397BB4F7EE}" {
+    Prefab "{6EC0BC8C34372F3E}Prefabs/Weapons/Grenades/GT5-PEA2/PKOM_Grenade_GT5PEA2.et"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D6148C7C23132D3D}Prefabs/Weapons/Rifles/SS1/PEAKOM_Rifle_SS1.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{3894AA780DA4EC4D}Prefabs/Characters/Vests/Vest_PASGT/PEAKOM_Vest_PASGT.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{662F7460DB06652A}Prefabs/Characters/Vests/Vest_ALICE/Variants/PEAKOM_Vest_ALICE_rifleman.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{692A884109120B62}" {
+     TargetStorage "Vest/PEAKOM_Vest_ALICE_rifleman.et/Suspenders/PKOM_Vest_ALICE_suspenders_2.et"
+    }
+    ItemsInitConfigurationItem "{692A885C4549BFB3}" {
+     TargetStorage "Vest/PEAKOM_Vest_ALICE_rifleman.et/MagPouch/PKOM_Pouch_ALICE_30rnd_STANAG.et"
+     PrefabsToSpawn {
+      "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{692A885BBD055352}" {
+     TargetStorage "Vest/PEAKOM_Vest_ALICE_rifleman.et/MagPouch2/PKOM_Pouch_ALICE_30rnd_STANAG.et"
+     PrefabsToSpawn {
+      "{6EC0BC8C34372F3E}Prefabs/Weapons/Grenades/GT5-PEA2/PKOM_Grenade_GT5PEA2.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{692A885BBDC2D257}" {
+     TargetStorage "Vest/PEAKOM_Vest_ALICE_rifleman.et/Buttpack/PKOM_Vest_ALICE_buttpack.et"
+     PrefabsToSpawn {
+      "{2A908B7DC4AD8938}Prefabs/Weapons/Grenades/GT6-AS/PEAKOM_Smoke_GT6AS.et" "{2A908B7DC4AD8938}Prefabs/Weapons/Grenades/GT6-AS/PEAKOM_Smoke_GT6AS.et"
+     }
+    }
+   }
+  }
+ }
+}

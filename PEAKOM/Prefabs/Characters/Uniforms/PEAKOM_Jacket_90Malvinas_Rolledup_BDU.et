@@ -1,0 +1,45 @@
+GameEntity : "{8A5424D1A2AA6595}Prefabs/Characters/Uniforms/Jacket_US_BDU_base.et" {
+ ID "5104869D194C6243"
+ components {
+  MeshObject "{5104869D194C6262}" {
+   Materials {
+    MaterialAssignClass "{692A88494B625B96}" {
+     SourceMaterial "Jacket_BDU_M81_item"
+     AssignedMaterial "{EAF81A4286A47AAF}Assets/Characters/Uniforms/Malvinas/PKOM_Jacket_BDU_Rolledup_90Malvinas/Data/PKOM_Jacket_Rolledup_90Malvinas_BDU.emat"
+    }
+   }
+  }
+  SCR_ItemOutfitFactionComponent "{618AD7BAB29F1EAE}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8A841C8FE46FC}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8A841CE9490F3}" {
+      m_AffiliatedFactionKey "PKOM"
+     }
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5222CB01D5B9A306}" {
+   Attributes SCR_ItemAttributeCollection "{5222CB01245CDF32}" {
+    ItemDisplayName UIInfo "{5222CB0109A04AB2}" {
+     Name "PDL Blouse 89/90 - Rolled Up"
+     Description "Blouse in 90's DPM Malvinas camouflage pattern, part of the Indonesian Army's Battle Dress Uniform."
+    }
+    CustomAttributes {
+     PreviewRenderAttributes "{555292467DA11B7C}" {
+      PreviewModel "{45FD428945E23AC3}Assets/Characters/Uniforms/Malvinas/PKOM_Jacket_BDU_Rolledup_90Malvinas/PKOM_Jacket_Rolledup_90Malvinas_BDU_Unflated.et"
+     }
+    }
+   }
+  }
+  BaseLoadoutClothComponent "{5104869D194C627A}" {
+   Slots {
+    LoadoutSlotInfo DummyBelt {
+     Prefab "{ACB6C2B49C1230F9}Prefabs/Characters/Vests/Vest_ALICE/Vest_ALICE_belt_dummy.et"
+    }
+   }
+   WornModel "{45FD428945E23AC3}Assets/Characters/Uniforms/Malvinas/PKOM_Jacket_BDU_Rolledup_90Malvinas/PKOM_Jacket_Rolledup_90Malvinas_BDU_Unflated.et"
+   ItemModel "{45423E65A66A4315}Assets/Characters/Uniforms/Malvinas/PKOM_Jacket_BDU_90Malvinas/PKOM_Jacket_90Malvinas_BDU_item.et"
+   DeflatedModel "{37DF0627220D32CD}Assets/Characters/Uniforms/Malvinas/PKOM_Jacket_BDU_Rolledup_90Malvinas/PKOM_Jacket_rolledup_90Malvinas_BDU_Deflated.et"
+  }
+ }
+}
