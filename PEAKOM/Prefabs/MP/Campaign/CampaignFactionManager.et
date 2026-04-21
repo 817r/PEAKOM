@@ -1,0 +1,7 @@
+SCR_CampaignFactionManager : "{A242612865F2A48E}Prefabs/MP/Managers/Factions/FactionManager_Base.et" {
+ ID "50A6CDA4F7C1474A"
+ Factions {
+  SCR_CampaignFaction "{692A26F738A4EBDE}" : "{10BDDD3BD02CBF6D}Configs/Factions/PEAKOM_Campaign.conf" {
+  }
+ }
+}
