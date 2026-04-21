@@ -1,0 +1,53 @@
+SCR_ChimeraCharacter : "{2FD3D625A7E71E1D}Prefabs/Characters/Core/Character_PEAKOM_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CharacterInventoryStorageComponent "{520EA1D2DB118DAC}" {
+   components {
+    SCR_EquipmentStorageComponent "{56B49DA9722B635D}" {
+     InitialStorageSlots {
+      SCR_EquipmentStorageSlot BinocularSlot {
+      }
+     }
+    }
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{95C134120880271C}Prefabs/Weapons/MachineGuns/M249/PEAKOM_MG_M249.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{3894AA780DA4EC4D}Prefabs/Characters/Vests/Vest_PASGT/PEAKOM_Vest_PASGT.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{8198C9000303C882}Prefabs/Characters/Vests/Vest_ALICE/Variants/PEAKOM_Vest_ALICE_AR.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{692A884109120B62}" {
+     TargetStorage "Vest/PEAKOM_Vest_ALICE_AR.et/Suspenders/Vest_ALICE_suspenders_2.et"
+    }
+    ItemsInitConfigurationItem "{692B1970F90F2213}" {
+     TargetStorage "Vest/PEAKOM_Vest_ALICE_AR.et/MagPouch/Pouch_ALICE_200rnd_M249.et"
+     PrefabsToSpawn {
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{692B1970F9C111E8}" {
+     TargetStorage "Vest/PEAKOM_Vest_ALICE_AR.et/MagPouch2/Pouch_ALICE_200rnd_M249.et"
+     PrefabsToSpawn {
+      "{06D722FC2666EB83}Prefabs/Weapons/Magazines/Box_556x45_M249_200rnd_4Ball_1Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{692B1970F98E067F}" {
+     TargetStorage "Vest/PEAKOM_Vest_ALICE_AR.et/Buttpack/Vest_ALICE_buttpack.et"
+     PrefabsToSpawn {
+      "{2A908B7DC4AD8938}Prefabs/Weapons/Grenades/GT6-AS/PEAKOM_Smoke_GT6AS.et"
+     }
+    }
+   }
+  }
+ }
+}

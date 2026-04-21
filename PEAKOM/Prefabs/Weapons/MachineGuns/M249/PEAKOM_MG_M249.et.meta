@@ -1,5 +1,5 @@
 MetaFileClass {
- Name "{F44F87222B67E26A}Prefabs/Characters/Factions/BLUFOR/US_Army/Character_US_Rifleman.et"
+ Name "{95C134120880271C}Prefabs/Weapons/MachineGuns/M249/MG_M249.et"
  Configurations {
   EntityTemplateResourceClass PC {
   }
