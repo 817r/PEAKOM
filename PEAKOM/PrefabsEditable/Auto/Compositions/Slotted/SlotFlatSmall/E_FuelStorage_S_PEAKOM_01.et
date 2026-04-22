@@ -401,6 +401,11 @@ GenericEntity : "{0AF1C4C9C7EF05F2}Prefabs/Compositions/Slotted/SlotFlatSmall/Fu
   }
   GenericEntity {
    ID "5D3706BD873FF276"
+   components {
+    SCR_FactionAffiliationComponent "{5CB8A6AD6CA2D332}" {
+     "faction affiliation" "PEAKOM"
+    }
+   }
    Flags 0x100000 0x403
    {
     GenericEntity {

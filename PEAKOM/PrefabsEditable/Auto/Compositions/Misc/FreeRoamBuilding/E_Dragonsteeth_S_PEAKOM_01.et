@@ -1,0 +1,46 @@
+GenericEntity : "{FD426896698B4615}Prefabs/Compositions/Misc/FreeRoamBuilding/Dragonsteeth_S_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{5E989985724CC0DD}" : "{8B8F72167C615EAA}Prefabs/Editor/Components/Compositions_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_Dragontooth_01_V1_Name"
+    m_Image "{80BEF7400F938133}UI/Textures/EditorPreviews/Auto/Compositions/Misc/FreeRoamBuilding/E_Dragonsteeth_S_US_01.edds"
+    m_sFaction "PEAKOM"
+    m_aAuthoredLabels {
+     ENTITYTYPE_OBJECT FACTION_PEAKOM THEME_MILITARY
+    }
+    m_aAutoLabels {
+     SIZE_S
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{692CDB0079E65DFD}" {
+      m_BudgetType CAMPAIGN
+      m_Value 10
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{692CDB0079E65DE7}" {
+      m_BudgetType PROPS
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_EditorLinkComponent "{692CDB0079E65C1E}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{692CDB0079E65C0E}" {
+     m_Prefab "{B08BCB2AD5A57B72}PrefabsEditable/Auto/Structures/Military/Fortifications/E_Dragontooth_01_V1.et"
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+   }
+  }
+ }
+ {
+  StaticModelEntity {
+   ID "5E64F5E7596006C9"
+   Flags 0x100000 0x80403
+  }
+ }
+}
