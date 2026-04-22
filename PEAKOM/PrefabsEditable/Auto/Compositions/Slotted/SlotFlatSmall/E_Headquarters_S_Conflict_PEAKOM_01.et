@@ -10,12 +10,12 @@ GenericEntity : "{FEFE7B425EA72746}Prefabs/Compositions/Slotted/SlotFlatSmall/He
     Icon "{2BB9FACCC5A47EEB}UI/Imagesets/Conflict/services-icons-bw.imageset"
     IconSetName "HQ"
     m_Image "{60ED30C0AE3DF774}UI/Textures/EditorPreviews/Auto/Compositions/Slotted/SlotFlatSmall/E_Headquarters_S_US_01.edds"
-    m_sFaction "US"
+    m_sFaction "PEAKOM"
     m_aAuthoredLabels {
      ENTITYTYPE_COMPOSITION SLOT_FLAT_SMALL SERVICE_HQ TRAIT_BASE TRAIT_MANAGEMENT_BASE TRAIT_SPAWNPOINT TRAIT_ARSENAL TRAIT_SUPPLYSTORAGE_SMALL TRAIT_RADIO
     }
     m_aAutoLabels {
-     FACTION_US
+     FACTION_PEAKOM
     }
     m_EntityBudgetCost {
      SCR_EntityBudgetValue "{692CDB1F2BE5722A}" {
