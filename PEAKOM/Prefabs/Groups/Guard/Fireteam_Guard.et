@@ -1,0 +1,200 @@
+SCR_AIGroup {
+ ID "692D2B622E00E70C"
+ components {
+  Persistence "{692D2B624F54EAAA}" {
+  }
+  AIChimeraBehaviorTreeComponent "{692D2B624F54EA99}" {
+   BehaviorTree "{082D5B0D5D33DB1D}AI/BehaviorTrees/Chimera/Group/Group.bt"
+  }
+  AIFormationComponent "{692D2B624F54EA81}" {
+   DefaultFormation "Wedge"
+   "Min Distance to Raytrace an Offset" 1
+   "Projection distance" 10
+  }
+  AIPathfindingComponent "{692D2B624F54EA8A}" {
+   NavmeshProject "Soldiers"
+  }
+  DCO_GroupContactReporterComponent "{692D2B624F54EAF0}" {
+  }
+  DCO_GroupUtilityComponent "{692D2B624F54EAF5}" {
+   m_bIsProcessedByCommander 0
+  }
+  SCR_AIConfigComponent "{692D2B624F54EA02}" {
+   m_aDefaultReactions {
+    SCR_AIIdleReaction "{692D2B624F54EADD}" {
+    }
+   }
+   m_aGoalReactions {
+    SCR_AIGoalReaction_Attack "{692D2B624F54EAC6}" {
+     m_eType ANIMATE
+    }
+    SCR_AIGoalReaction_GetInVehicle "{692D2B624F54EACC}" {
+     m_eType GET_IN_VEHICLE
+    }
+    SCR_AIGoalReaction_GetOutVehicle "{692D2B624F54EA33}" {
+     m_eType GET_OUT_VEHICLE
+    }
+    SCR_AIGoalReaction_Heal "{692D2B624F54EA36}" {
+     m_eType HEAL
+    }
+    SCR_AIGoalReaction_Defend "{692D2B624F54EA3F}" {
+     m_eType DEFEND
+    }
+    SCR_AIGoalReaction_Move "{692D2B624F54EA23}" {
+     m_eType MOVE
+    }
+    SCR_AIGoalReaction_SeekAndDestroy "{692D2B624F54EA26}" {
+     m_eType SEEK_DESTROY
+    }
+    SCR_AIGoalReaction_PerformAction "{692D2B624F54EA2A}" {
+     m_eType PERFORM_ACTION
+    }
+    SCR_AIGoalReaction_Cancel "{692D2B624F54EA2F}" {
+     m_eType CANCEL
+    }
+    SCR_AIGoalReaction_Follow "{692D2B624F54EA17}" {
+     m_eType FOLLOW
+    }
+    SCR_AIGoalReaction_Animate "{692D2B624F54EA18}" {
+     m_eType ANIMATE
+    }
+   }
+   m_aInfoReactions {
+    SCR_AIInfoReaction_Wounded "{692D2B624F54EA1F}" {
+     m_eType WOUNDED
+    }
+    SCR_AIInfoReaction_NoAmmo "{692D2B624F54EA03}" {
+     m_eType NO_AMMO
+    }
+   }
+  }
+  SCR_AIGroupInfoComponent "{692D2B624F54EA09}" {
+  }
+  SCR_AIGroupMovementComponent "{692D2B624F54EA76}" {
+   "Min Speed" 7
+   "Using Railroad" 0
+   "Max Distance to Path" 5
+   DefaultFormation "Wedge"
+  }
+  SCR_AIGroupSettingsComponent "{692D2B624F54EA7C}" {
+  }
+  SCR_AIGroupUtilityComponent "{692D2B624F54EA60}" {
+  }
+  SCR_CallsignGroupComponent "{692D2B624F54EA62}" {
+  }
+  SCR_EditableGroupComponent "{692D2B624F54E527}" {
+   m_EntityType GROUP
+   m_UIInfo SCR_EditableGroupUIInfo "{692D2B624F54E5F8}" {
+    Name "#AR-Group_FireTeam"
+    m_Image "{4D2BC22FD7A24961}UI/Textures/EditorPreviews/Groups/BLUFOR/Group_US_FireTeam.edds"
+    m_sFaction "PEAKOM"
+    m_aAuthoredLabels {
+     ENTITYTYPE_GROUP FACTION_PEAKOM NONE NONE GROUPTYPE_ESSENTIAL
+    }
+    m_aAutoLabels {
+     GROUPSIZE_MEDIUM
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{692D2B624F54E5AE}" {
+      m_BudgetType CAMPAIGN
+      m_Value 400
+     }
+     SCR_EntityBudgetValue "{692D2B624F54E596}" {
+      m_BudgetType AI_SERVER
+      m_Value 4
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{692D2B624F54E59A}" {
+      m_BudgetType AI
+      m_Value 4
+     }
+    }
+    m_bUseUIInfoName 1
+    m_MilitarySymbol SCR_MilitarySymbol "{692D2B624F54E583}" {
+     m_Identity BLUFOR
+     m_Dimension LAND
+     m_Icons INFANTRY
+     m_Amplifier TEAM
+    }
+   }
+   m_bAutoRegister ALWAYS
+   m_vIconPos 0 5 0
+   m_Flags 9541
+  }
+  SCR_GroupIdentityComponent "{692D2B624F54E50A}" {
+   m_MilitarySymbol SCR_MilitarySymbol "{692D2B624F54E505}" {
+    m_Identity BLUFOR
+    m_Icons INFANTRY
+    m_Amplifier TEAM
+   }
+  }
+  SCR_MailboxComponent "{692D2B624F54E50E}" {
+  }
+  SCR_PreviewEntityComponent "{692D2B624F54E55C}" {
+   m_bRuntime 0
+   m_aEntries {
+    SCR_BasePreviewEntry "{692D2B624F54E563}" {
+     m_iParentID -1
+     m_Mesh ""
+     m_Flags 3
+     m_Shape MESH
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{692D2B624F54E568}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{692D2B624F54E56D}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{692D2B624F54E551}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition -3 0 -3
+     m_vAngles 0 0 0
+    }
+    SCR_BasePreviewEntry "{692D2B624F54E554}" {
+     m_iParentID 0
+     m_Mesh "{7B2420C8BC72373A}Prefabs/Characters/Core/Character_Base_Preview.et"
+     m_Flags 0
+     m_Shape PREFAB
+     m_iPivotID ""
+     m_vScale 1 1 1
+     m_vPosition 6 0 -6
+     m_vAngles 0 0 0
+    }
+   }
+  }
+  RplComponent "{692D2B624F54E542}" {
+   "Rpl State Override" Runtime
+   Streamable Disabled
+  }
+ }
+ coords 5144.821 207.219 1810.231
+ DangerEventRange 300
+ m_faction "PEAKOM"
+ m_aUnitPrefabSlots {
+  "{624B75BFC4D80CFB}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_Rifleman.et" "{624B75BFC4D80CFB}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_Rifleman.et" "{624B75BFC4D80CFB}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_Rifleman.et" "{7C02DB9B670987E6}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_AR.et"
+ }
+}
