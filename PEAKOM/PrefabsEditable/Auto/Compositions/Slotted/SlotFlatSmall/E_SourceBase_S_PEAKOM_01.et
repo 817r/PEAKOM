@@ -1,0 +1,229 @@
+GenericEntity : "{2FEB5A3A3E817311}Prefabs/Compositions/Slotted/SlotFlatSmall/SourceBase_S_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{62288A5E4C471040}" {
+   "faction affiliation" "PEAKOM"
+  }
+  SCR_EditableEntityComponent "{6460DCDB5D21132A}" : "{B35795373E565FE7}Prefabs/Editor/Components/SlotFlatSmall_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "(SourceBase_S_US_01)"
+    m_Image ""
+    m_sFaction "PEAKOM"
+    m_aAuthoredLabels +{
+    }
+    m_aAutoLabels {
+     FACTION_PEAKOM
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{692CDB1F53465331}" {
+      m_BudgetType PROPS
+      m_Value 13
+     }
+     SCR_EntityBudgetValue "{692CDB1F53465324}" {
+      m_BudgetType SYSTEMS
+      m_Value 8
+     }
+    }
+   }
+  }
+  SCR_EditorLinkComponent "{692CDB1F53465323}" {
+   m_bRandomizeVariants 0
+   m_aEntries {
+    SCR_EditorLinkEntry "{692CDB1F534653DD}" {
+     m_Prefab "{82DB57BBB46BF984}PrefabsEditable/Auto/Structures/Military/Camps/Canvas_Covers/US/E_CanvasCover_Medium_US.et"
+     m_vPosition 4.362 0.1 0.086
+     m_vAngles 0 -90 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB1F534653DC}" {
+     m_Prefab "{C02498D55CF377AF}PrefabsEditable/Auto/Systems/Compositions/BaseLogic/E_MilitaryBaseLogic_US.et"
+     m_vPosition -3.324 0 5.591
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB1F534653DF}" {
+     m_Prefab "{9FEBA85C09987EF6}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_03.et"
+     m_vPosition 2.457 0 1.001
+     m_vAngles 0 -173.818 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB1F53460522}" {
+     m_Prefab "{70272F740D363793}PrefabsEditable/SpawnPoints/E_SpawnPoint_US_Supplies.et"
+     m_vPosition -3.5 0 5.5
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB1F53460525}" {
+     m_Prefab "{93E5381B6280917D}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Storage/E_Storage_Supplies_US_02.et"
+     m_vPosition 4.228 0.001 -0.126
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB1F53460526}" {
+     m_Prefab "{14604D7E75F91B26}PrefabsEditable/Auto/Props/Military/Compositions/US/E_Antenna_02_US.et"
+     m_vPosition 1.77 0 -5.367
+     m_vAngles 0 5.891 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB1F53460528}" {
+     m_Prefab "{1623D045B9B966B3}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_01.et"
+     m_vPosition -1.343 0 6.321
+     m_vAngles 0 -15.4 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB1F53460529}" {
+     m_Prefab "{308E000E2051D357}PrefabsEditable/Auto/Systems/SpawnPoints/E_SpawnPosition.et"
+     m_vPosition 2.892 0.01 -3.131
+     m_vAngles 0 48.015 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB1F5346052A}" {
+     m_Prefab "{308E000E2051D357}PrefabsEditable/Auto/Systems/SpawnPoints/E_SpawnPosition.et"
+     m_vPosition 3.101 0.01 2.293
+     m_vAngles 0 1.025 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB1F5346052B}" {
+     m_Prefab "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et"
+     m_vPosition 7.339 0 0.957
+     m_vAngles 0 -52.752 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB1F53460536}" {
+     m_Prefab "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et"
+     m_vPosition -6.122 0 4.184
+     m_vAngles 0 -104.588 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB1F53460537}" {
+     m_Prefab "{4F051BF6CA4F2BAA}PrefabsEditable/Auto/Structures/Signs/Military/Supplies/E_Sign_SupplyStorage_ConstructionMat_US_01.et"
+     m_vPosition 6.151 0 1.778
+     m_vAngles 0.267 -3.338 1.02
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB1F53460538}" {
+     m_Prefab "{2E67A6863167B995}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_Camo_long_high_US.et"
+     m_vPosition -2.707 -0.408 5.655
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "62288A5E4C469807"
+   Flags 0x100000 0x3
+   {
+    DecalEntity {
+     ID "56DEFDB4A2C87F38"
+     Flags 0x100000 0x80003
+    }
+   }
+  }
+  GenericEntity {
+   ID "62288A5E4C46980C"
+   Flags 0x100000 0x403
+  }
+  GenericEntity {
+   ID "62288A5E4C469814"
+   Flags 0x100000 0x403
+   {
+    GenericEntity {
+     ID "5D45393F647955A1"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "5D45393F647955A3"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "5D45393F647955A4"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "5D45393F647955A7"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "5D45393F647955AD"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "5D45393F647955AF"
+     Flags 0x100000 0x403
+     {
+      GenericEntity {
+       ID "5D3085BCA5EF72EE"
+       Flags 0x100000 0x403
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "62288A5E4C469820"
+   Flags 0x100000 0x3
+   {
+    DecalEntity {
+     ID "56E0B29E01E2AC90"
+     Flags 0x100000 0x80003
+    }
+   }
+  }
+  GenericEntity {
+   ID "62288A5E4C469832"
+   Flags 0x100000 0x3
+   {
+    GenericEntity {
+     ID "5D3706BEFB667678"
+     Flags 0x100000 0x3
+     {
+      GenericEntity {
+       ID "5CB66A1083676037"
+       Flags 0x100000 0x403
+      }
+     }
+    }
+   }
+  }
+  GenericEntity {
+   ID "62288A5E4C4698FD"
+   Flags 0x100000 0x3
+  }
+  GenericEntity {
+   ID "62288A5E4C46998B"
+   Flags 0x100000 0x403
+  }
+  GenericEntity {
+   ID "62288A5E4C471052"
+   Flags 0x100000 0x403
+  }
+  GenericEntity {
+   ID "62288A5E4C4713E7"
+   Flags 0x100000 0x3
+  }
+  GenericEntity {
+   ID "62288A5E4C474ACE"
+   Flags 0x100000 0x3
+  }
+  GenericEntity {
+   ID "62288A5E4C474ADC"
+   Flags 0x100000 0x3
+  }
+  GenericEntity {
+   ID "6460DCDA9370C076"
+   Flags 0x100000 0x403
+   {
+    GenericEntity {
+     ID "570481C6F2142B70"
+     Flags 0x100000 0x3
+    }
+   }
+  }
+  SCR_SpawnPoint {
+   ID "62288A5E4C46981E"
+   Flags 0x100000 0x3
+  }
+ }
+}

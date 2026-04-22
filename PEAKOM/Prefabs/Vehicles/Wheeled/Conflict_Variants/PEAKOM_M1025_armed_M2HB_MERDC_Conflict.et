@@ -1,0 +1,41 @@
+Vehicle : "{DD774A8FD0989A78}Prefabs/Vehicles/Wheeled/M998/M1025_armed_M2HB_MERDC.et" {
+ ID "BBCBA43A9778AE21"
+ components {
+  SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
+   m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+    m_sFaction "PEAKOM"
+    m_aAutoLabels {
+     FACTION_PEAKOM SIZE_M VEHICLE_CAR
+    }
+   }
+  }
+  SCR_UniversalInventoryStorageComponent "{5916C587FC993363}" {
+   MultiSlots {
+    MultiSlotConfiguration "{62EACA449015CF31}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{62EACA4482A6FEC6}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{62EACA44F7FFD246}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{62EACA44F707D1D5}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{62EACA542F863407}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{62EACA540865E9A9}" {
+     NumSlots 0
+    }
+    MultiSlotConfiguration "{62EACA54619871BA}" {
+     NumSlots 0
+    }
+   }
+  }
+  SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
+   "faction affiliation" "PEAKOM"
+  }
+ }
+}

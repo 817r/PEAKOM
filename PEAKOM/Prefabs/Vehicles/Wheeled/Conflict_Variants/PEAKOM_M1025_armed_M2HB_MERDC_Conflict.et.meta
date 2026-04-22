@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{A64C2E610A49F4FF}Prefabs/Vehicles/Wheeled/Conflict_Variants/PEAKOM_M1025_armed_M2HB_MERDC_Conflict.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
