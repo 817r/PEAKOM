@@ -1,0 +1,188 @@
+GenericEntity : "{D52528DAA8746D58}Prefabs/Compositions/Misc/FreeRoamBuilding/Emplacement_AA_MG_US_M2HB.et" {
+ ID "6510E3A096D1DE70"
+ components {
+  FactionAffiliationComponent "{6530772436DE71AC}" {
+   "faction affiliation" "PEAKOM"
+  }
+  SCR_CampaignBuildingCompositionComponent "{6530771BF9C57EDC}" {
+   m_AudioSourceConfigurationSpawn SCR_AudioSourceConfiguration "{692CDB10A4657252}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_BUILD_MG_NEST_01"
+   }
+   m_AudioSourceConfigurationDespawn SCR_AudioSourceConfiguration "{692CDB10A4657264}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_DESTROY_GENERIC"
+   }
+  }
+  SCR_EditableEntityComponent "{6662B08BB630D128}" : "{8B8F72167C615EAA}Prefabs/Editor/Components/Compositions_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_Emplacement_AA_MG_US_M2HB_Name"
+    m_Image "{1A48092228AA699F}UI/Textures/EditorPreviews/Auto/Compositions/Misc/FreeRoamBuilding/E_Emplacement_AA_MG_US_M2HB.edds"
+    m_sFaction "PEAKOM"
+    m_aAuthoredLabels + {
+     TRAIT_FORTIFICATION TRAIT_ARMED TRAIT_ARMORPIERCING SLOT_FLAT_SMALL
+    }
+    m_aAutoLabels {
+     FACTION_PEAKOM
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{692CDB10A465726F}" {
+      m_BudgetType CAMPAIGN
+      m_Value 200
+     }
+     SCR_EntityBudgetValue "{692CDB10A465726C}" {
+      m_BudgetType RANK_CORPORAL
+      m_Value 2
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{692CDB10A4657192}" {
+      m_BudgetType VEHICLES
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{692CDB10A465623A}" {
+      m_BudgetType PROPS
+      m_Value 11
+     }
+    }
+   }
+  }
+  SCR_EditorLinkComponent "{692CDB10A465622E}" {
+   m_bRandomizeVariants 0
+   m_aEntries {
+    SCR_EditorLinkEntry "{692CDB10A4656220}" {
+     m_Prefab "{3A64925BC81FC2C0}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_short_high_plastic.et"
+     m_vPosition 0.691 -0.518 1.323
+     m_vAngles 0 -79.953 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10A4656226}" {
+     m_Prefab "{FD625252F3654B76}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_long_v1.et"
+     m_vPosition 2.229 0 0.204
+     m_vAngles 0 70.894 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10A4653BF3}" {
+     m_Prefab "{1D222070059E4EEF}PrefabsEditable/Auto/Props/Military/AmmoBoxes/E_AmmoBox_50cal_100rnd.et"
+     m_vPosition -0.166 0 0.497
+     m_vAngles 0 -46.527 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10A4653BF2}" {
+     m_Prefab "{1D222070059E4EEF}PrefabsEditable/Auto/Props/Military/AmmoBoxes/E_AmmoBox_50cal_100rnd.et"
+     m_vPosition -0.463 0.086 0.256
+     m_vAngles -84.247 -70.036 90.101
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10A4653BCE}" {
+     m_Prefab "{1D222070059E4EEF}PrefabsEditable/Auto/Props/Military/AmmoBoxes/E_AmmoBox_50cal_100rnd.et"
+     m_vPosition -0.283 0 0.64
+     m_vAngles 0 -44.411 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10A4653BCD}" {
+     m_Prefab "{D0315073F7B22594}PrefabsEditable/Auto/Structures/Military/CamoNets/US/E_CamoNet_Small_US.et"
+     m_vPosition 0.539 0 -0.926
+     m_vAngles 0 -0.218 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10A4653BA9}" {
+     m_Prefab "{74AA2A4B43445333}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_long_v3.et"
+     m_vPosition -1.654 0 0.202
+     m_vAngles 0 -59.997 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10A4653BA8}" {
+     m_Prefab "{74AA2A4B43445333}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_long_v3.et"
+     m_vPosition 0.547 0 1.628
+     m_vAngles 0 -0.881 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10A4653BA7}" {
+     m_Prefab "{87588E4A1561C4D1}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_round_high_plastic.et"
+     m_vPosition 0.542 0 1.666
+     m_vAngles 0 1.833 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10A4653356}" {
+     m_Prefab "{87588E4A1561C4D1}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_round_high_plastic.et"
+     m_vPosition 2.225 0 0.157
+     m_vAngles 0 82.054 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10A4653357}" {
+     m_Prefab "{87588E4A1561C4D1}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_round_high_plastic.et"
+     m_vPosition -1.407 0 0.389
+     m_vAngles 0 -70.107 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10A4653354}" {
+     m_Prefab "{917E25C4E19000D0}Prefabs/Weapons/Tripods/Tripod_M3_M2HB_APIT.et"
+     m_vPosition 0.626 0.946 1.264
+     m_vAngles 18.622 8.065 2.257
+     m_fScale 1
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "6510E8988BE537C8"
+   Flags 0x100000 0
+  }
+  GenericEntity {
+   ID "6510E8988BE537DA"
+   Flags 0x100000 0
+  }
+  GenericEntity {
+   ID "6510E8988BE537E1"
+   Flags 0x100000 0
+  }
+  GenericEntity {
+   ID "6510E899C1430773"
+   Flags 0x100000 0
+  }
+  GenericEntity {
+   ID "6510E89EDBF2546C"
+   Flags 0x100000 0
+  }
+  GenericEntity {
+   ID "6510E89FAB772751"
+   Flags 0x100000 0
+  }
+  GenericEntity {
+   ID "6530770F87150DC8"
+   Flags 0x100000 0
+  }
+  GenericEntity {
+   ID "6530770FDE0366C2"
+   Flags 0x100000 0
+  }
+  StaticModelEntity {
+   ID "6510E3A096D1B846"
+   Flags 0x100000 0
+  }
+  StaticModelEntity {
+   ID "6510E3A096D1DE41"
+   Flags 0x100000 0
+  }
+  StaticModelEntity {
+   ID "6510E3A096D1DE43"
+   Flags 0x100000 0
+  }
+  Turret {
+   ID "6510E8985F425B53"
+   components {
+    SCR_EditableVehicleComponent "{58FE9E4F05DC95A3}" {
+     m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+      m_sFaction "PEAKOM"
+      m_aAutoLabels {
+       SIZE_S VEHICLE_TURRET FACTION_PEAKOM
+      }
+     }
+    }
+   }
+   Flags 0x100000 0
+  }
+ }
+}

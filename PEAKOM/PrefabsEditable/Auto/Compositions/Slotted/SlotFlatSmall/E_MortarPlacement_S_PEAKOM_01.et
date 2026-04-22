@@ -1,0 +1,197 @@
+GenericEntity : "{2323F9E4C524F047}Prefabs/Compositions/Slotted/SlotFlatSmall/MortarPlacement_S_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  SCR_EditableEntityComponent "{6186DB2D6434FA80}" : "{B35795373E565FE7}Prefabs/Editor/Components/SlotFlatSmall_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_MortarEmplacement_M252_S_US_Name"
+    m_Image "{9B7751C21D93058E}UI/Textures/EditorPreviews/Auto/Slotted/SlotFlatSmall/E_MortarPlacement_S_US.edds"
+    m_sFaction "PEAKOM"
+    m_aAuthoredLabels {
+     ENTITYTYPE_COMPOSITION SLOT_FLAT_SMALL TRAIT_REARMING TRAIT_FORTIFICATION SERVICE_ARMORY TRAIT_ARSENAL TRAIT_MORTAR SERVICE_MORTAR FACTION_PEAKOM
+    }
+    m_aAutoLabels {
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{692CDB133A5B7757}" {
+      m_BudgetType CAMPAIGN
+      m_Value 400
+     }
+     SCR_EntityBudgetValue "{692CDB133A5B774D}" {
+      m_BudgetType RANK_SERGEANT
+      m_Value 3
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{692CDB133A5B7743}" {
+      m_BudgetType PROPS
+      m_Value 24
+     }
+     SCR_EntityBudgetValue "{692CDB133A5B7741}" {
+      m_BudgetType SYSTEMS
+      m_Value 4
+     }
+    }
+   }
+   m_Flags 131395
+  }
+  SCR_EditorLinkComponent "{692CDB133A5B777A}" {
+   m_bRandomizeVariants 0
+   m_aEntries {
+    SCR_EditorLinkEntry "{692CDB133A5B777E}" {
+     m_Prefab "{BE34F0B3A22481F5}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Foundation_Mortar_US.et"
+     m_vPosition 0 0.2 0
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "6186DB2F33FB321E"
+   Flags 0x100000 0x403
+   {
+    GenericEntity {
+     ID "6186D3A8CE3D24EB"
+     Flags 0x100000 0x3
+     {
+      DecalEntity {
+       ID "56DF08929A14FB98"
+       Flags 0x100000 0x80003
+      }
+     }
+    }
+    GenericEntity {
+     ID "6186D3A8CE3D24F0"
+     Flags 0x100000 0x3
+     {
+      DecalEntity {
+       ID "56DF08929A14FB98"
+       Flags 0x100000 0x80003
+      }
+     }
+    }
+    GenericEntity {
+     ID "6186D3A8CE3D252F"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "6186D3A8CE3D253A"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "6186D3A8CE3D2546"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "6186D3A8CE3D2553"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "6186D3A8CE3D2566"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "6186D3A8CE3D2577"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "6186D3A8CE3D2583"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "6186D3A8CE3D25A8"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "6186D3A8CE3D25B5"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "6186D3A8CE3D25B8"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "6186D3A8CE3D25C7"
+     Flags 0x100000 0x403
+     {
+      GenericEntity {
+       ID "6186DB290A91C258"
+       Flags 0x100000 0x403
+      }
+      GenericEntity {
+       ID "6186DB290A91C259"
+       Flags 0x100000 0x403
+      }
+      GenericEntity {
+       ID "6186DB290A91C25A"
+       Flags 0x100000 0x403
+      }
+      GenericEntity {
+       ID "6186DB290A91C25B"
+       Flags 0x100000 0x403
+      }
+     }
+    }
+    GenericEntity {
+     ID "6186D3A8CE3D25E3"
+     Flags 0x100000 0x3
+     {
+      DecalEntity {
+       ID "56DEFDB4A9499F9B"
+       Flags 0x100000 0x80003
+      }
+     }
+    }
+    GenericEntity {
+     ID "6186D3A8CE3D2601"
+     Flags 0x100000 0x403
+     {
+      GenericEntity {
+       ID "6186DB291A937028"
+       Flags 0x100000 0x403
+      }
+      GenericEntity {
+       ID "6186DB291A937029"
+       Flags 0x100000 0x403
+      }
+      GenericEntity {
+       ID "6186DB291A937056"
+       Flags 0x100000 0x403
+      }
+      GenericEntity {
+       ID "6186DB291A937057"
+       Flags 0x100000 0x403
+      }
+     }
+    }
+    GenericEntity {
+     ID "6186D3A8CE3D2672"
+     components {
+      SCR_FactionAffiliationComponent "{5A50E7650A1AE9EC}" {
+       "faction affiliation" "PEAKOM"
+      }
+     }
+     Flags 0x100000 0x403
+    }
+    Turret {
+     ID "6186D3A8CE3D250E"
+     components {
+      SCR_EditableVehicleComponent "{617CC5661216D3D8}" {
+       m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+        m_sFaction "PEAKOM"
+        m_aAuthoredLabels {
+         FACTION_PEAKOM ENTITYTYPE_VEHICLE TRAIT_MORTAR SERVICE_MORTAR
+        }
+       }
+      }
+      SCR_VehicleFactionAffiliationComponent "{5CF87D14630BD7E0}" {
+       "faction affiliation" "PEAKOM"
+      }
+     }
+     Flags 0x100000 0x3
+    }
+   }
+  }
+ }
+}

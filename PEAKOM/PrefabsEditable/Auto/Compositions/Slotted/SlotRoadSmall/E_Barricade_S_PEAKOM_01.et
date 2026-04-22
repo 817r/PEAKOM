@@ -1,0 +1,166 @@
+GenericEntity : "{24B7F96197053B39}Prefabs/Compositions/Slotted/SlotRoadSmall/Barricade_S_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{5CC69CE2739CAEC0}" {
+   "faction affiliation" "PEAKOM"
+  }
+  SCR_EditableEntityComponent "{5E669964A24B1389}" : "{055A4F00770B396B}Prefabs/Editor/Components/SlotRoadSmall_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_Barricade_S_US_01_Name"
+    Icon "{077BEF7A3C7930CF}UI/Textures/Editor/EditableEntities/Compositions/EditableEntity_Composition.edds"
+    m_Image "{1F0AC9FEE6A8F4F0}UI/Textures/EditorPreviews/Auto/Compositions/Slotted/SlotRoadSmall/E_Barricade_S_US_01.edds"
+    m_sFaction "PEAKOM"
+    m_aAuthoredLabels {
+     ENTITYTYPE_COMPOSITION SLOT_ROAD_SMALL TRAIT_FORTIFICATION
+    }
+    m_aAutoLabels {
+     FACTION_PEAKOM
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{692CDB132048E1E2}" {
+      m_BudgetType CAMPAIGN
+      m_Value 20
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{692CDB132048E197}" {
+      m_BudgetType SYSTEMS
+      m_Value 2
+     }
+     SCR_EntityBudgetValue "{692CDB132048E195}" {
+      m_BudgetType PROPS
+      m_Value 9
+     }
+    }
+   }
+  }
+  SCR_EditorLinkComponent "{692CDB132048E188}" {
+   m_aEntries {
+    SCR_EditorLinkEntry "{692CDB132048E18E}" {
+     m_Prefab "{365E4BF1FFFD8B30}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Long.et"
+     m_vPosition -0.223 0 0.203
+     m_vAngles 0 -115.019 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB132048E18C}" {
+     m_Prefab "{4743C19D701160AA}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_05.et"
+     m_vPosition 1.152 0 0.301
+     m_vAngles 0 18.331 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB132048EB66}" {
+     m_Prefab "{4743C19D701160AA}PrefabsEditable/Auto/Compositions/Misc/CustomEntities/CompositionDecals/E_CompositionDecal_Dirt_Patch_05.et"
+     m_vPosition -1.025 0 0.193
+     m_vAngles 0 -7.903 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB132048EB6B}" {
+     m_Prefab "{3943B33365846337}PrefabsEditable/Auto/Structures/Military/Fortifications/E_Dragontooth_01_V3.et"
+     m_vPosition 0.989 0 -0.775
+     m_vAngles 0 -1.886 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB132048EB6A}" {
+     m_Prefab "{3943B33365846337}PrefabsEditable/Auto/Structures/Military/Fortifications/E_Dragontooth_01_V3.et"
+     m_vPosition -0.924 0 1.661
+     m_vAngles 0 -47.952 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB132048EB6C}" {
+     m_Prefab "{3943B33365846337}PrefabsEditable/Auto/Structures/Military/Fortifications/E_Dragontooth_01_V3.et"
+     m_vPosition 1.82 0 1.292
+     m_vAngles 0 50.979 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB132048EB6F}" {
+     m_Prefab "{3943B33365846337}PrefabsEditable/Auto/Structures/Military/Fortifications/E_Dragontooth_01_V3.et"
+     m_vPosition -1.871 0 -1.098
+     m_vAngles 0 -120.553 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB13204B4E8F}" {
+     m_Prefab "{910D0810DB232ED5}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_LoiterPoint.et"
+     m_vPosition -1.493 0 -1.905
+     m_vAngles 0 61.821 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB13204B4EB1}" {
+     m_Prefab "{A1932F99114451A7}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Short.et"
+     m_vPosition 1.944 0 0.325
+     m_vAngles 0 -74.751 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB13204B4EA2}" {
+     m_Prefab "{A1932F99114451A7}PrefabsEditable/Auto/Structures/Walls/BarbedWire/E_BarbedTape_Short.et"
+     m_vPosition -1.984 0 -0.132
+     m_vAngles 0 -99.697 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB13204B4EA4}" {
+     m_Prefab "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et"
+     m_vPosition 1.694 0 -1.821
+     m_vAngles 0 -92.358 0
+     m_fScale 1
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "5CC6AA09EB402D5F"
+   Flags 0x100000 0x3
+   {
+    DecalEntity {
+     ID "56E0B29E17039037"
+     Flags 0x100000 0x80003
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6AA09EB402D7A"
+   Flags 0x100000 0x3
+   {
+    DecalEntity {
+     ID "56E0B29E17039037"
+     Flags 0x100000 0x80003
+    }
+   }
+  }
+  GenericEntity {
+   ID "5CC6B4B0E08C8E09"
+   Flags 0x100000 0x3
+  }
+  GenericEntity {
+   ID "5CC6B4B0E08C8E56"
+   Flags 0x100000 0x3
+  }
+  StaticModelEntity {
+   ID "5CC6AA09EB402A0C"
+   Flags 0x100000 0x80403
+  }
+  StaticModelEntity {
+   ID "5CC6AA09EB402A13"
+   Flags 0x100000 0x80403
+  }
+  StaticModelEntity {
+   ID "5CC6AA09EB402A57"
+   Flags 0x100000 0x80403
+  }
+  StaticModelEntity {
+   ID "5CC6AA09EB402A8E"
+   Flags 0x100000 0x80403
+  }
+  StaticModelEntity {
+   ID "5CC6AA09EB402AA0"
+   Flags 0x100000 0x80403
+  }
+  StaticModelEntity {
+   ID "5CC6AA09EB402AD9"
+   Flags 0x100000 0x80403
+  }
+  StaticModelEntity {
+   ID "5CC6AA09EB402AFE"
+   Flags 0x100000 0x80403
+  }
+ }
+}

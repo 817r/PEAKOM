@@ -596,10 +596,20 @@ GenericEntity : "{FEFE7B425EA72746}Prefabs/Compositions/Slotted/SlotFlatSmall/He
   }
   GenericEntity {
    ID "658A80EFA3FCE857"
+   components {
+    SCR_FactionAffiliationComponent "{5D36D469534F8E78}" {
+     "faction affiliation" "PEAKOM"
+    }
+   }
    Flags 0x100000 0
    {
     GenericEntity {
      ID "5D3706BEFB667678"
+     components {
+      SCR_FactionAffiliationComponent "{5D36D46E9AAC6ACB}" {
+       "faction affiliation" "PEAKOM"
+      }
+     }
      Flags 0x100000 0
      {
       GenericEntity {

@@ -1,0 +1,169 @@
+GenericEntity : "{AB87B392A989CA95}Prefabs/Compositions/Slotted/SlotFlatSmall/GuardTower_S_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{65E0A06B289027F7}" {
+   "faction affiliation" "PEAKOM"
+  }
+  SCR_EditableEntityComponent "{66026E5994EFA21D}" : "{B35795373E565FE7}Prefabs/Editor/Components/SlotFlatSmall_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_GuardTower_01_Name"
+    m_Image "{B7545720D40F3D01}UI/Textures/EditorPreviews/Auto/Compositions/Slotted/SlotFlatSmall/E_GuardTower_S_US_01.edds"
+    m_sFaction "PEAKOM"
+    m_aAuthoredLabels {
+     ENTITYTYPE_COMPOSITION SLOT_FLAT_SMALL TRAIT_FORTIFICATION
+    }
+    m_aAutoLabels {
+     FACTION_PEAKOM
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{692CDB121D027DB4}" {
+      m_BudgetType CAMPAIGN
+      m_Value 240
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{692CDB121D027D9B}" {
+      m_BudgetType SYSTEMS
+      m_Value 2
+     }
+     SCR_EntityBudgetValue "{692CDB121D027D9A}" {
+      m_BudgetType PROPS
+      m_Value 22
+     }
+    }
+   }
+   m_Flags 131395
+  }
+  SCR_EditorLinkComponent "{692CDB121D027D92}" {
+   m_bRandomizeVariants 0
+   m_aEntries {
+    SCR_EditorLinkEntry "{692CDB121D027D97}" {
+     m_Prefab "{EC32A8258D155DB2}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Fortifications/E_SandBag_Tower_S_US_01.et"
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB121D027D95}" {
+     m_Prefab "{910D0810DB232ED5}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_LoiterPoint.et"
+     m_vPosition 0.907 0.708 3.903
+     m_vAngles 0 95.021 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB121D027D94}" {
+     m_Prefab "{308E000E2051D357}PrefabsEditable/Auto/Systems/SpawnPoints/E_SpawnPosition.et"
+     m_vPosition -0.708 0.31 2.626
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "65E0A06B2891F90F"
+   Flags 0x100000 0
+  }
+  GenericEntity {
+   ID "65E0A0A8CD7A2081"
+   Flags 0x100000 0
+  }
+  GenericEntity {
+   ID "65E0A0CE725943EB"
+   Flags 0x100000 0
+   {
+    GameEntity {
+     ID "65E0A0CF3DBE502F"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0CF3DB92B81"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0CF3DB92B8C"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0CF3DB92B8D"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0CF3DB92B8E"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0CF3DB942C4"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0CF3DB942C5"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0CF3DB942C6"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0CF3DB9894D"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0CF3DB98950"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0CF3DB98952"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0CF3DBE502D"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0CF3DBEA6E7"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0CF3DBFF011"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0CF3DBFF012"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0CF3DBFF013"
+     Flags 0x100000 0
+    }
+    GenericEntity {
+     ID "65E0A0CF3DBFF017"
+     Flags 0x100000 0
+    }
+    StaticModelEntity {
+     ID "65E0A0CF3DB98956"
+     Flags 0x100000 0
+    }
+    StaticModelEntity {
+     ID "65E0A0CF3DBE6BD8"
+     Flags 0x100000 0
+    }
+    StaticModelEntity {
+     ID "65E0A0CF3DBE6BD9"
+     Flags 0x100000 0
+    }
+    StaticModelEntity {
+     ID "65E0A0CF3DBEA6E0"
+     Flags 0x100000 0
+    }
+    StaticModelEntity {
+     ID "65E0A0CF3DBFF020"
+     Flags 0x100000 0
+    }
+    StaticModelEntity {
+     ID "65E0A0CF3DBFF05F"
+     Flags 0x100000 0
+    }
+   }
+  }
+ }
+}

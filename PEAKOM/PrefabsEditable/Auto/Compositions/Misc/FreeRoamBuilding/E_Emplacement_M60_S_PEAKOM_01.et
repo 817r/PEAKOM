@@ -1,0 +1,103 @@
+GenericEntity : "{C1920B6B402F1EA4}Prefabs/Compositions/Misc/FreeRoamBuilding/Emplacement_M60_S_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{65307724F995C7BD}" {
+   "faction affiliation" "PEAKOM"
+  }
+  SCR_EditableEntityComponent "{64DA883BCEE2A9F3}" : "{8B8F72167C615EAA}Prefabs/Editor/Components/Compositions_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_MG_Emplacement_M60_Name"
+    Description "#AR-EditableEntity_MG_Emplacement_Desc"
+    m_Image "{0406C8163E1E5975}UI/Textures/EditorPreviews/Auto/Compositions/Misc/FreeRoamBuilding/E_Emplacement_M60_S_US_01.edds"
+    m_sFaction "PEAKOM"
+    m_aAuthoredLabels {
+     ENTITYTYPE_OBJECT SIZE_XS TRAIT_FORTIFICATION TRAIT_ARMED
+    }
+    m_aAutoLabels {
+     FACTION_PEAKOM
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{692CDB10AB2A1409}" {
+      m_BudgetType RANK_CORPORAL
+      m_Value 2
+     }
+     SCR_EntityBudgetValue "{692CDB10AB2A1438}" {
+      m_BudgetType CAMPAIGN
+      m_Value 80
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{692CDB10AB2A1439}" {
+      m_BudgetType PROPS
+      m_Value 8
+     }
+     SCR_EntityBudgetValue "{692CDB10AB2A1437}" {
+      m_BudgetType VEHICLES
+      m_Value 1
+     }
+    }
+   }
+  }
+  SCR_EditorLinkComponent "{692CDB10AB2A1433}" {
+   m_bRandomizeVariants 0
+   m_aEntries {
+    SCR_EditorLinkEntry "{692CDB10AB2A1431}" {
+     m_Prefab "{942D2F8391C376D8}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_Sandbag_MG_US_01_M60.et"
+     m_vPosition 0 0 0
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "64DA8839DAE0F840"
+   Flags 0x100000 0x3
+   {
+    GenericEntity {
+     ID "570C956566ECAA57"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "570CFD756A2B77AA"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "570CFD7584B8E353"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "570CFD7584B8E361"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "570CFD7584B8E3D4"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "570CFD7584B8ECDD"
+     Flags 0x100000 0x403
+    }
+    StaticModelEntity {
+     ID "570CFD7584B8ECE0"
+     Flags 0x100000 0x80403
+    }
+    Turret {
+     ID "5CB0D9912C9F8B8C"
+     components {
+      SCR_EditableVehicleComponent "{58FE9E4F05DC95A3}" {
+       m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+        m_sFaction "PEAKOM"
+        m_aAuthoredLabels {
+         ENTITYTYPE_VEHICLE FACTION_PEAKOM TRAIT_ARMED TRAIT_SUPPRESSIVE
+        }
+       }
+      }
+     }
+     Flags 0x100000 0x3
+    }
+   }
+  }
+ }
+}

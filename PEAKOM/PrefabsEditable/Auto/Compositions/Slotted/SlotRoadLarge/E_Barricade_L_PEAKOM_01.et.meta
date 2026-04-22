@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{6A0A1BD3E97FF6AF}PrefabsEditable/Auto/Compositions/Slotted/SlotRoadLarge/E_Barricade_L_PEAKOM_01.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}

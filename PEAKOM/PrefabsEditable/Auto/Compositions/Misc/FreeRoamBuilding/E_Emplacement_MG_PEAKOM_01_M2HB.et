@@ -1,0 +1,157 @@
+GenericEntity : "{97CF91FDCC1EFA4E}Prefabs/Compositions/Misc/FreeRoamBuilding/Emplacement_MG_US_01_M2HB.et" {
+ ID "570C956566ECAA53"
+ components {
+  FactionAffiliationComponent "{65307704EFA7E41A}" {
+   "faction affiliation" "PEAKOM"
+  }
+  SCR_CampaignBuildingCompositionComponent "{65307704F89FE3AC}" {
+   m_AudioSourceConfigurationSpawn SCR_AudioSourceConfiguration "{692CDB10D15CCFCF}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_BUILD_SANDBAG"
+   }
+   m_AudioSourceConfigurationDespawn SCR_AudioSourceConfiguration "{692CDB10D15CCFC1}" {
+    m_sSoundProject "{F76981ECA6DC2674}Sounds/Editor/BaseBuilding/Editor_BaseBuilding.acp"
+    m_sSoundEventName "SOUND_DESTROY_SANDBAG"
+   }
+  }
+  SCR_EditableEntityComponent "{64F2824A2D108054}" : "{8B8F72167C615EAA}Prefabs/Editor/Components/Compositions_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_MG_Emplacement_M2HB_Name"
+    Description "#AR-EditableEntity_MG_Emplacement_Desc"
+    m_Image "{B20FC3006B50DC7B}UI/Textures/EditorPreviews/Auto/Compositions/Misc/FreeRoamBuilding/E_Emplacement_MG_US_01_M2HB.edds"
+    m_sFaction "PEAKOM"
+    m_aAuthoredLabels {
+     ENTITYTYPE_OBJECT FACTION_US SIZE_XS TRAIT_FORTIFICATION TRAIT_ARMED TRAIT_ARMORPIERCING
+    }
+    m_aAutoLabels {
+     FACTION_PEAKOM
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{692CDB10D15CCFF8}" {
+      m_BudgetType RANK_CORPORAL
+      m_Value 2
+     }
+     SCR_EntityBudgetValue "{692CDB10D15CCFF9}" {
+      m_BudgetType CAMPAIGN
+      m_Value 150
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{692CDB10D15CCFF7}" {
+      m_BudgetType VEHICLES
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{692CDB10D15CCFF4}" {
+      m_BudgetType PROPS
+      m_Value 7
+     }
+    }
+   }
+   m_Flags 131331
+  }
+  SCR_EditorLinkComponent "{692CDB10D15CCFF0}" {
+   m_bRandomizeVariants 0
+   m_aEntries {
+    SCR_EditorLinkEntry "{692CDB10D15CCFEF}" {
+     m_Prefab "{3F5EE4D69DBC478C}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_short_plastic.et"
+     m_vPosition -0.068 0 -0.519
+     m_vAngles 0 -88.083 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10D15CCFEC}" {
+     m_Prefab "{73530808E4B455BA}Prefabs/Weapons/Tripods/Tripod_M3_M2HB.et"
+     m_vPosition -0.106 0.634 -0.592
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10D15CCFED}" {
+     m_Prefab "{7949746E8D314957}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_high_plastic.et"
+     m_vPosition 1.534 0 -0.739
+     m_vAngles 0 93.588 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10D15CCFEB}" {
+     m_Prefab "{7949746E8D314957}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_high_plastic.et"
+     m_vPosition 1.144 0 -0.208
+     m_vAngles 0 -178.083 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10D15CCFE8}" {
+     m_Prefab "{7949746E8D314957}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_high_plastic.et"
+     m_vPosition -1.188 0 -0.118
+     m_vAngles 0 2.218 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10D15CCFE9}" {
+     m_Prefab "{7949746E8D314957}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_end_high_plastic.et"
+     m_vPosition -1.711 0 -0.535
+     m_vAngles 0 93.588 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10D15CCE16}" {
+     m_Prefab "{3C9FB6869EB635BB}PrefabsEditable/Auto/Props/Military/Sandbags/E_Sandbag_01_round_plastic.et"
+     m_vPosition -0.131 0 -0.454
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10D15CCE17}" {
+     m_Prefab "{74AA2A4B43445333}PrefabsEditable/Auto/Structures/Military/Fortifications/E_DirtCover_01_long_v3.et"
+     m_vPosition -0.228 0 0.243
+     m_vAngles 0 3.368 0
+     m_fScale 1
+    }
+   }
+  }
+  SCR_SlotCompositionComponent "{570C9567485BDA03}" {
+   m_SlotPrefab "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et"
+  }
+ }
+ angles 0 0 0
+ {
+  GenericEntity {
+   ID "570C956566ECAA57"
+   Flags 0x100000 0x403
+  }
+  GenericEntity {
+   ID "570CFD756A2B77AA"
+   Flags 0x100000 0x403
+  }
+  GenericEntity {
+   ID "570CFD7584B8E353"
+   Flags 0x100000 0x403
+  }
+  GenericEntity {
+   ID "570CFD7584B8E361"
+   Flags 0x100000 0x403
+  }
+  GenericEntity {
+   ID "570CFD7584B8E3D4"
+   Flags 0x100000 0x403
+  }
+  GenericEntity {
+   ID "570CFD7584B8ECDD"
+   Flags 0x100000 0x403
+  }
+  StaticModelEntity {
+   ID "570CFD7584B8ECE0"
+   Flags 0x100000 0x80403
+  }
+  Turret {
+   ID "64F2824A5A685827"
+   components {
+    SCR_EditableVehicleComponent "{58FE9E4F05DC95A3}" {
+     m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
+      m_sFaction "PEAKOM"
+      m_aAuthoredLabels {
+       ENTITYTYPE_VEHICLE FACTION_PEAKOM TRAIT_ARMED TRAIT_SUPPRESSIVE
+      }
+     }
+    }
+    SCR_VehicleFactionAffiliationComponent "{59107AF83E654ABA}" {
+     "faction affiliation" "PEAKOM"
+    }
+   }
+   Flags 0x100000 0x3
+  }
+ }
+}

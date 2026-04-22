@@ -1,0 +1,192 @@
+GenericEntity : "{22D2EFA80AC9DBD1}Prefabs/Compositions/Slotted/SlotFlatSmall/SupplyCache_S_US_01.et" {
+ ID "5282DCB5DFC8538F"
+ components {
+  FactionAffiliationComponent "{62EC970D6C589E1D}" {
+   "faction affiliation" "PEAKOM"
+  }
+  SCR_EditableEntityComponent "{63088881A0AC04CF}" : "{B35795373E565FE7}Prefabs/Editor/Components/SlotFlatSmall_SCR_EditableEntityComponent.ct" {
+   m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
+    Name "#AR-EditableEntity_SupplyStorage_S_US_01_Name"
+    Description ""
+    Icon "{2BB9FACCC5A47EEB}UI/Imagesets/Conflict/services-icons-bw.imageset"
+    IconSetName "SupplyDepot"
+    m_Image "{82A40443080C805A}UI/Textures/EditorPreviews/Auto/Compositions/Slotted/SlotFlatSmall/E_SupplyCache_S_US_01.edds"
+    m_sFaction "PEAKOM"
+    m_aAuthoredLabels {
+     ENTITYTYPE_COMPOSITION SLOT_FLAT_SMALL TRAIT_SUPPLYSTORAGE_LARGE TRAIT_SERVICE
+    }
+    m_aAutoLabels {
+     FACTION_PEAKOM
+    }
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{692CDB10BCEB1698}" {
+      m_BudgetType RANK_PRIVATE
+      m_Value 1
+     }
+     SCR_EntityBudgetValue "{692CDB10BCEB16BE}" {
+      m_BudgetType CAMPAIGN
+      m_Value 175
+     }
+    }
+    m_EntityChildrenBudgetCost {
+     SCR_EntityBudgetValue "{692CDB10BCEB16BC}" {
+      m_BudgetType SYSTEMS
+      m_Value 2
+     }
+     SCR_EntityBudgetValue "{692CDB10BCEB16BA}" {
+      m_BudgetType PROPS
+      m_Value 12
+     }
+    }
+    m_SlotPrefab "{588A3DAF0296B0C1}PrefabsEditable/Slots/Flat/E_SlotFlatSmall.et"
+   }
+  }
+  SCR_EditorLinkComponent "{692CDB10BCEB16A4}" {
+   m_bRandomizeVariants 0
+   m_aEntries {
+    SCR_EditorLinkEntry "{692CDB10BCEB16AE}" {
+     m_Prefab "{77BBA2866AE3E861}PrefabsEditable/Auto/Structures/Signs/Military/Supplies/E_Sign_SupplyStorage_Supplies_US_01.et"
+     m_vPosition -3.305 0 2.236
+     m_vAngles 0.672 5.24 -1.037
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10BCEB16AD}" {
+     m_Prefab "{5DCDDE1CF7AD24DD}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Decorations/E_PalletPile_Stacked_01.et"
+     m_vPosition -2.678 0 1.551
+     m_vAngles 0 -7 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10BCEB16AC}" {
+     m_Prefab "{B7B9652A54C06ACD}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/E_BarbedCoil_Light_US_01.et"
+     m_vPosition -0.791 0 1.609
+     m_vAngles 0 163.453 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10BCEB16AB}" {
+     m_Prefab "{46F077BDA1AF95B2}PrefabsEditable/Auto/Props/Industrial/E_BarrelFuel_01_closed.et"
+     m_vPosition 3.115 0 1.052
+     m_vAngles 0 106.697 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10BCEB16D2}" {
+     m_Prefab "{46F077BDA1AF95B2}PrefabsEditable/Auto/Props/Industrial/E_BarrelFuel_01_closed.et"
+     m_vPosition 2.436 0 1.441
+     m_vAngles 0 31.365 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10BCEBE6D7}" {
+     m_Prefab "{46F077BDA1AF95B2}PrefabsEditable/Auto/Props/Industrial/E_BarrelFuel_01_closed.et"
+     m_vPosition 1.581 0 1.814
+     m_vAngles 0 3.825 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10BCEBE6D5}" {
+     m_Prefab "{46F077BDA1AF95B2}PrefabsEditable/Auto/Props/Industrial/E_BarrelFuel_01_closed.et"
+     m_vPosition 1.712 0 1.079
+     m_vAngles 0 80.292 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10BCEBE6DB}" {
+     m_Prefab "{E1721BBF5A1ABD24}PrefabsEditable/Auto/Props/Military/Fortification/E_BarbedTape_Coil.et"
+     m_vPosition 0.667 0 1.378
+     m_vAngles 0 88.668 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10BCEBE6CE}" {
+     m_Prefab "{E8064D678E35371C}PrefabsEditable/Auto/Compositions/Misc/SubCompositions/Storage/Slotted/E_Storage_Supplies_Containers_US_04.et"
+     m_vPosition -2.585 0.001 -1.13
+     m_vAngles 0 0 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10BCEBE6CF}" {
+     m_Prefab "{910D0810DB232ED5}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_LoiterPoint.et"
+     m_vPosition -7.584 0 1.195
+     m_vAngles 0 -172.005 0
+     m_fScale 1
+    }
+    SCR_EditorLinkEntry "{692CDB10BCEBE6CC}" {
+     m_Prefab "{F0AC39FB028EE442}PrefabsEditable/Auto/Systems/Compositions/PatrolPoint/E_PatrolPoint_ObservationPoint.et"
+     m_vPosition 0.481 0 1.63
+     m_vAngles 0 -87.832 0
+     m_fScale 1
+    }
+   }
+  }
+ }
+ {
+  GenericEntity {
+   ID "62EACD01B6ECE922"
+   Flags 0x100000 0x403
+  }
+  GenericEntity {
+   ID "62EACD01B6ECE924"
+   Flags 0x100000 0x403
+  }
+  GenericEntity {
+   ID "62EACD01B6ECE926"
+   Flags 0x100000 0x403
+  }
+  GenericEntity {
+   ID "62EACD01B6ECE927"
+   Flags 0x100000 0x403
+  }
+  GenericEntity {
+   ID "62EACD01B6ECE92F"
+   Flags 0x100000 0x403
+   {
+    GenericEntity {
+     ID "5D1ED92C8FCFAAB4"
+     Flags 0x100000 0x403
+    }
+   }
+  }
+  GenericEntity {
+   ID "62EACD01B6ECE938"
+   Flags 0x100000 0x80403
+   {
+    GameEntity {
+     ID "5CB0D9933603DA88"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "5CB0D9933603DA84"
+     Flags 0x100000 0x403
+    }
+   }
+  }
+  GenericEntity {
+   ID "62EACD01B6ECE939"
+   Flags 0x100000 0x403
+  }
+  GenericEntity {
+   ID "62EACD01B6ED2B53"
+   Flags 0x100000 0x403
+   {
+    GenericEntity {
+     ID "62F4A407B8DE2D97"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "62F4A407B8DE2DA9"
+     Flags 0x100000 0x403
+    }
+    GenericEntity {
+     ID "62F4A407B8DFA02D"
+     Flags 0x100000 0x403
+    }
+   }
+  }
+  GenericEntity {
+   ID "62EACD01B6ED2B54"
+   Flags 0x100000 0x3
+  }
+  GenericEntity {
+   ID "62EACD01B6ED2B56"
+   Flags 0x100000 0x80403
+  }
+  GenericEntity {
+   ID "62EACD01B6ED2B5F"
+   Flags 0x100000 0x3
+  }
+ }
+}
