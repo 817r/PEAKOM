@@ -1,10 +1,18 @@
 SCR_ChimeraCharacter : "{37578B1666981FCE}Prefabs/Characters/Core/Character_Base.et" {
  ID "520EC961A090B1EE"
  components {
+  SCR_CharacterFactionAffiliationComponent "{692D03E78B287799}" {
+   "faction affiliation" "PEAKOM"
+  }
   SCR_EditableCharacterComponent "{520EA1D2F659C85C}" {
    m_UIInfo SCR_EditableEntityUIInfo "{5298E609432D192D}" {
     m_sFaction "PEAKOM"
    }
+  }
+  SCR_MapDescriptorComponent "{692D03E7AFE00F51}" {
+   VisibleOnMap 0
+   MainType Unit
+   UnitType Infantry
   }
  }
 }

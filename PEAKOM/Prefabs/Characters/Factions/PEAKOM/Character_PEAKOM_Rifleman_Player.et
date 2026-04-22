@@ -1,0 +1,7 @@
+SCR_ChimeraCharacter : "{624B75BFC4D80CFB}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_Rifleman.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CampaignBuildingComponent "{692CCEDC75723AF7}" {
+  }
+ }
+}

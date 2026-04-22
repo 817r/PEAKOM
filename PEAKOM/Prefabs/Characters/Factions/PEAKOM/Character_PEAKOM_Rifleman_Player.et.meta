@@ -1,0 +1,17 @@
+MetaFileClass {
+ Name "{E5A77FA5D0F96341}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_Rifleman_Player.et"
+ Configurations {
+  EntityTemplateResourceClass PC {
+  }
+  EntityTemplateResourceClass XBOX_ONE : PC {
+  }
+  EntityTemplateResourceClass XBOX_SERIES : PC {
+  }
+  EntityTemplateResourceClass PS4 : PC {
+  }
+  EntityTemplateResourceClass PS5 : PC {
+  }
+  EntityTemplateResourceClass HEADLESS : PC {
+  }
+ }
+}
