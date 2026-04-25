@@ -1,0 +1,16 @@
+SCR_ChimeraCharacter : "{2FD3D625A7E71E1D}Prefabs/Characters/Core/Character_PEAKOM_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CampaignBuildingComponent "{6932A6E1AB65AC27}" {
+  }
+  SCR_ResourceComponent "{6932A6E18F465150}" {
+   m_aConsumers {
+    SCR_ResourceConsumer "{6932A6E19DCA7D9D}" {
+     m_sDebugName "Self - Consumer"
+     m_eResourceRights SELF
+     m_eGeneratorIdentifier SELF
+    }
+   }
+  }
+ }
+}
