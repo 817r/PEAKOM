@@ -1,0 +1,9 @@
+SCR_LoadoutManager {
+ ID "56B2B47708C4F23A"
+ m_aPlayerLoadouts {
+  SCR_FactionPlayerLoadout "{6932F4E00DDDAED2}" {
+   m_sLoadoutResource "{E5A77FA5D0F96341}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_Rifleman_Player.et"
+   m_sAffiliatedFaction "PEAKOM"
+  }
+ }
+}

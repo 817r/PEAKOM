@@ -1,0 +1,16 @@
+SCR_LoadoutManager : "{AA4E7419A1FF65B0}Prefabs/MP/Managers/Loadouts/LoadoutManager_Base.et" {
+ ID "5690D9DBA5D97663"
+ m_aPlayerLoadouts {
+  SCR_PlayerArsenalLoadout "{6932E1D574D4673B}" {
+   m_sLoadoutName "#AR-Loadout_Editor_SavedArsenalLoadout_Name"
+   m_sLoadoutResource "{E24BD9099DB96AF5}Prefabs/Characters/Core/Character_PEAKOM_Base.et"
+   m_sAffiliatedFaction "PEAKOM"
+  }
+  SCR_FactionPlayerLoadout "{6932E1D54F490024}" {
+   m_sLoadoutName "Rifleman"
+   m_sLoadoutResource "{E5A77FA5D0F96341}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_Rifleman_Player.et"
+   m_sLoadoutImage "{5167A3EE4DC2C556}Textures/PKOM_Rifleman_Icon.edds"
+   m_sAffiliatedFaction "PEAKOM"
+  }
+ }
+}
