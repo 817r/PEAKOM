@@ -1,3 +1,14 @@
 GenericEntity : "{18B8B9316B590643}Prefabs/Characters/Vests/Vest_ALICE/Variants/Vest_ALICE_GL.et" {
  ID "526492DCB8322C65"
+ components {
+  SCR_ItemOutfitFactionComponent "{6196EEA1985D962E}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D967E2014667}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D967E1B6717B}" {
+      m_AffiliatedFactionKey "PEAKOM"
+     }
+    }
+   }
+  }
+ }
 }

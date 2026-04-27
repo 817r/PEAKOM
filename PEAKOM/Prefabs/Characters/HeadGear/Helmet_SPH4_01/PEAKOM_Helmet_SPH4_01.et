@@ -5,7 +5,7 @@ GameEntity : "{483A80042765275F}Prefabs/Characters/HeadGear/Helmet_SPH4_01/Helme
    m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D9665B5FDE74}" {
     m_aOutfitFactionData {
      SCR_OutfitFactionData "{61A8D9665AD8BD0A}" {
-      m_AffiliatedFactionKey "PKOM"
+      m_AffiliatedFactionKey "PEAKOM"
      }
     }
    }

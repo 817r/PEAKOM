@@ -4,6 +4,15 @@ GameEntity : "{1E5ADDFCAD826666}Prefabs/Characters/HeadGear/PKOM_Helmet_RBR/PKOM
   MeshObject "{5112706CD4157AE0}" {
    Object "{141FB6D6CD0B5A9E}3D Model/RBR/pkom_RBR_scrim.xob"
   }
+  SCR_ItemOutfitFactionComponent "{618AD7BB075F1045}" {
+   m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D96650B5696D}" {
+    m_aOutfitFactionData {
+     SCR_OutfitFactionData "{61A8D96650441EDE}" {
+      m_AffiliatedFactionKey "PEAKOM"
+     }
+    }
+   }
+  }
   BaseLoadoutClothComponent "{5112706CD4157AF8}" {
    WornModel "{141FB6D6CD0B5A9E}3D Model/RBR/pkom_RBR_scrim.xob"
    ItemModel "{717EB387FE6C4C00}3D Model/RBR/pkom_RBR_scrim_item.xob"
