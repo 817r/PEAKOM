@@ -3,14 +3,14 @@ Vehicle : "{B1C4A3DA3987202E}Prefabs/Vehicles/Wheeled/M998/M997_maxi_ambulance_b
  components {
   SCR_EditableVehicleComponent "{50DEB7C26B5EB312}" {
    m_UIInfo SCR_EditableVehicleUIInfo "{5298E609432D192D}" {
-    m_sFaction "PKOM"
+    m_sFaction "PEAKOM"
     m_aAutoLabels {
-     FACTION_PKOM SIZE_M VEHICLE_CAR
+     FACTION_PEAKOM SIZE_M VEHICLE_CAR
     }
    }
   }
   SCR_VehicleFactionAffiliationComponent "{5882CBD9AC741CEC}" {
-   "faction affiliation" "PKOM"
+   "faction affiliation" "PEAKOM"
   }
   SlotManagerComponent "{55BCE45E438E4CFF}" {
    Slots {
