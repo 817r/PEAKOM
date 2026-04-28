@@ -33,7 +33,7 @@ GameEntity : "{4B57C11AA5161760}Prefabs/Characters/Vests/Vest_PASGT/Vest_PASGT.e
    m_OutfitDataHolder SCR_OutfitFactionDataHolder "{62A2A6189DAC0777}" {
     m_aOutfitFactionData {
      SCR_OutfitFactionData "{62A2A6189D3FB829}" {
-      m_AffiliatedFactionKey "PKOM"
+      m_AffiliatedFactionKey "PEAKOM"
      }
     }
    }

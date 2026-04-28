@@ -13,7 +13,7 @@ GameEntity : "{8A5424D1A2AA6595}Prefabs/Characters/Uniforms/Jacket_US_BDU_base.e
    m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8A841C8FE46FC}" {
     m_aOutfitFactionData {
      SCR_OutfitFactionData "{61A8A841CE9490F3}" {
-      m_AffiliatedFactionKey "PKOM"
+      m_AffiliatedFactionKey "PEAKOM"
      }
     }
    }

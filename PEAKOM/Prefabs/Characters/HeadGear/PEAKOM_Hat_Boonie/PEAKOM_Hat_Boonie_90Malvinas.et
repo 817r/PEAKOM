@@ -31,7 +31,7 @@ GameEntity : "{D4BC1F7EC5C290A3}Prefabs/Characters/HeadGear/Hat_Boonie_US_01/Hat
    m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D966DE76BABC}" {
     m_aOutfitFactionData {
      SCR_OutfitFactionData "{61A8D966DC437F32}" {
-      m_AffiliatedFactionKey "PKOM"
+      m_AffiliatedFactionKey "PEAKOM"
      }
     }
    }

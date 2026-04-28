@@ -24,7 +24,7 @@ GameEntity : "{B74A4FF0DD8BB116}Prefabs/Characters/HeadGear/Helmet_PASGT_01/Helm
    m_OutfitDataHolder SCR_OutfitFactionDataHolder "{61A8D96650B5696D}" {
     m_aOutfitFactionData {
      SCR_OutfitFactionData "{61A8D96650441EDE}" {
-      m_AffiliatedFactionKey "PKOM"
+      m_AffiliatedFactionKey "PEAKOM"
      }
     }
    }
