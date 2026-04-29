@@ -21,7 +21,7 @@ GenericEntity : "{97CF91FDCC1EFA4E}Prefabs/Compositions/Misc/FreeRoamBuilding/Em
     m_Image "{B20FC3006B50DC7B}UI/Textures/EditorPreviews/Auto/Compositions/Misc/FreeRoamBuilding/E_Emplacement_MG_US_01_M2HB.edds"
     m_sFaction "PEAKOM"
     m_aAuthoredLabels {
-     ENTITYTYPE_OBJECT FACTION_US SIZE_XS TRAIT_FORTIFICATION TRAIT_ARMED TRAIT_ARMORPIERCING
+     ENTITYTYPE_OBJECT FACTION_PEAKOM SIZE_XS TRAIT_FORTIFICATION TRAIT_ARMED TRAIT_ARMORPIERCING
     }
     m_aAutoLabels {
      FACTION_PEAKOM
