@@ -8,6 +8,9 @@ SCR_AIGroup : "{000CD338713F2B5A}Prefabs/AI/Groups/Group_Base.et" {
      FACTION_PEAKOM
     }
     m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{604482963251834C}" {
+      m_Value 230
+     }
      SCR_EntityBudgetValue "{609AE1834A64CEC1}" {
       m_Value 2
      }

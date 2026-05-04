@@ -1,0 +1,20 @@
+SCR_AIGroup : "{B47F19387F3CE120}Prefabs/Groups/PEAKOM/Group_PEAKOM_Base.et" {
+ ID "0000000000000001"
+ components {
+  SCR_EditableGroupComponent "{50D291F6C83FA532}" {
+   m_UIInfo SCR_EditableGroupUIInfo "{5298E609432D192D}" {
+    m_EntityBudgetCost {
+     SCR_EntityBudgetValue "{604482963251834C}" {
+      m_Value 835
+     }
+     SCR_EntityBudgetValue "{609AE1834A64CEC1}" {
+      m_Value 10
+     }
+    }
+   }
+  }
+ }
+ m_aUnitPrefabSlots {
+  "{2F9BD3E1851CC597}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_TeamLeader.et" "{5B283DE2EF89EAF1}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_ATL.et" "{7C02DB9B670987E6}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_AR.et" "{A53976E4A462343E}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_Grenadier.et" "{3DB184D2B325AA3A}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_AT.et" "{3DB184D2B325AA3A}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_AT.et" "{624B75BFC4D80CFB}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_Rifleman.et" "{A53976E4A462343E}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_Grenadier.et" "{FA7C304F6B822C85}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_AmmoBearer.et" "{67E5F152D0030864}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_Medic.et"
+ }
+}
