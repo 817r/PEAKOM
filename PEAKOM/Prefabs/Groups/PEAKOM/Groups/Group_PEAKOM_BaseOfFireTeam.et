@@ -1,0 +1,6 @@
+SCR_AIGroup : "{B47F19387F3CE120}Prefabs/Groups/BLUFOR/Group_PEAKOM_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{2F9BD3E1851CC597}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_TeamLeader.et" "{7C02DB9B670987E6}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_AR.et" "{7C02DB9B670987E6}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_AR.et" "{FA7C304F6B822C85}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_AmmoBearer.et"
+ }
+}

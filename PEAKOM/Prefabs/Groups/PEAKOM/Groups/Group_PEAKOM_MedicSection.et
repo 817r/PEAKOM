@@ -1,0 +1,6 @@
+SCR_AIGroup : "{B47F19387F3CE120}Prefabs/Groups/BLUFOR/Group_PEAKOM_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{A53976E4A462343E}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_Grenadier.et" "{67E5F152D0030864}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_Medic.et" "{67E5F152D0030864}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_Medic.et"
+ }
+}

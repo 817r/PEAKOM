@@ -1,0 +1,57 @@
+SCR_ChimeraCharacter : "{2FD3D625A7E71E1D}Prefabs/Characters/Core/Character_PEAKOM_BaseLoadout.et" {
+ ID "520EC961A090B1EE"
+ components {
+  CharacterGrenadeSlotComponent "{520EA1D2F659CE6E}" {
+   AttachType InventoryStorageSlot "{416B67397BB4F7EE}" {
+    Prefab "{6EC0BC8C34372F3E}Prefabs/Weapons/Grenades/GT5-PEA2/PKOM_Grenade_GT5PEA2.et"
+   }
+  }
+  CharacterWeaponSlotComponent "{520EA1D2F659CFAB}" {
+   WeaponTemplate "{D6148C7C23132D3D}Prefabs/Weapons/Rifles/SS1/PEAKOM_Rifle_SS1.et"
+  }
+  BaseLoadoutManagerComponent "{520EA1D2DB11821E}" {
+   Slots {
+    LoadoutSlotInfo ArmoredVest {
+     Prefab "{3894AA780DA4EC4D}Prefabs/Characters/Vests/Vest_PASGT/PEAKOM_Vest_PASGT.et"
+    }
+    LoadoutSlotInfo Back {
+     Prefab "{7AC107CA7AFC9B59}Prefabs/Items/Equipment/Backpacks/Backpack_Medical_Soviet.et"
+    }
+    LoadoutSlotInfo Vest {
+     Prefab "{662F7460DB06652A}Prefabs/Characters/Vests/Vest_ALICE/Variants/PEAKOM_Vest_ALICE_rifleman.et"
+    }
+   }
+  }
+  SCR_InventoryStorageManagerComponent "{520EA1D2DB118DE5}" {
+   InitialInventoryItems {
+    ItemsInitConfigurationItem "{692A884109120B62}" {
+     TargetStorage "Vest/PEAKOM_Vest_ALICE_rifleman.et/Suspenders/PKOM_Vest_ALICE_suspenders_2.et"
+    }
+    ItemsInitConfigurationItem "{6947544C46E3D7DC}" {
+     TargetStorage "Vest/PEAKOM_Vest_ALICE_rifleman.et/MagPouch/PKOM_Pouch_ALICE_30rnd_STANAG.et"
+     PrefabsToSpawn {
+      "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6947544C46E3D721}" {
+     TargetStorage "Vest/PEAKOM_Vest_ALICE_rifleman.et/MagPouch2/PKOM_Pouch_ALICE_30rnd_STANAG.et"
+     PrefabsToSpawn {
+      "{6EC0BC8C34372F3E}Prefabs/Weapons/Grenades/GT5-PEA2/PKOM_Grenade_GT5PEA2.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et" "{D8F2CA92583B23D3}Prefabs/Weapons/Magazines/Magazine_556x45_STANAG_30rnd_M855_M856_Last_5Tracer.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6947544C46E3D72F}" {
+     TargetStorage "Vest/PEAKOM_Vest_ALICE_rifleman.et/Buttpack/PKOM_Vest_ALICE_buttpack.et"
+     PrefabsToSpawn {
+      "{2A908B7DC4AD8938}Prefabs/Weapons/Grenades/GT6-AS/PEAKOM_Smoke_GT6AS.et" "{2A908B7DC4AD8938}Prefabs/Weapons/Grenades/GT6-AS/PEAKOM_Smoke_GT6AS.et"
+     }
+    }
+    ItemsInitConfigurationItem "{6947544DD9C6C6B8}" {
+     TargetStorage "Back/Backpack_Medical_Soviet.et"
+     PrefabsToSpawn {
+      "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{A81F501D3EF6F38E}Prefabs/Items/Medicine/FieldDressing_01/FieldDressing_US_01.et" "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01_base.et" "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01_base.et" "{3238FC0BDB67AA78}Prefabs/Items/Medicine/MorphineInjection_01/MorphineInjection_01_base.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{00E36F41CA310E2A}Prefabs/Items/Medicine/SalineBag_01/SalineBag_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et" "{D70216B1B2889129}Prefabs/Items/Medicine/Tourniquet_01/Tourniquet_US_01.et"
+     }
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,7 @@
+SCR_ChimeraCharacter : "{A53976E4A462343E}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_Grenadier.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CampaignBuildingComponent "{69486514B8C945C2}" {
+  }
+ }
+}

@@ -1,0 +1,7 @@
+SCR_ChimeraCharacter : "{6370E8B6D5C4E6C2}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_AMG.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CampaignBuildingComponent "{6948651594F5B3BB}" {
+  }
+ }
+}

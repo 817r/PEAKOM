@@ -1,0 +1,7 @@
+SCR_ChimeraCharacter : "{67E5F152D0030864}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_Medic.et" {
+ ID "520EC961A090B1EE"
+ components {
+  SCR_CampaignBuildingComponent "{6948651459449225}" {
+  }
+ }
+}

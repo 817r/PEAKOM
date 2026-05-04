@@ -1,0 +1,6 @@
+SCR_AIGroup : "{B47F19387F3CE120}Prefabs/Groups/PEAKOM/Group_PEAKOM_Base.et" {
+ ID "0000000000000001"
+ m_aUnitPrefabSlots {
+  "{2F9BD3E1851CC597}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_TeamLeader.et" "{5B283DE2EF89EAF1}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_ATL.et" "{B70E3309A4E3A085}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_MG.et" "{6370E8B6D5C4E6C2}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_AMG.et" "{A53976E4A462343E}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_Grenadier.et" "{3DB184D2B325AA3A}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_AT.et" "{624B75BFC4D80CFB}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_Rifleman.et" "{A53976E4A462343E}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_Grenadier.et" "{624B75BFC4D80CFB}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_Rifleman.et" "{67E5F152D0030864}Prefabs/Characters/Factions/PEAKOM/Character_PEAKOM_Medic.et"
+ }
+}
